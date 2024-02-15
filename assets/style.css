@@ -60,6 +60,14 @@ header {
    flex-direction: column;
 }
 
+.fa-rotate-left {
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 .user-and-crush-input-container {
     gap: 1rem;
     display: flex;

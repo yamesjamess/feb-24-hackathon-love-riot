@@ -2,13 +2,22 @@ const compatibilityScoreContainer = document.querySelector('.compatibility-score
 const calculateBtn = document.getElementById('calculate-btn')
 const compatibilityScoreForm = document.querySelector('.user-input')
 const compatibilityPercentage = document.getElementById('compatibility-percentage')
-// Dummy score 
-let compatibilityScore = 76
+const resetForm = document.querySelector('.fa-rotate-left')
+const userAndCrushInputs = document.querySelectorAll('.input')
 
 compatibilityScoreForm.addEventListener('submit', (e) => {
     e.preventDefault()
     compatibilityScoreContainer.style.visibility = "visible";
     compatibilityScoreContainer.style.opacity = "1";
 })
+
+userAndCrushInputs.forEach((input) => {
+    resetForm.addEventListener('click', () => {
+        input.value = ''; 
+    })
+    
+});
+
+
 
 

@@ -42,7 +42,9 @@ header {
 }
 
 .compatibility-score-container {
-    display: none;
+    visibility: collapse;
+    opacity: 0;
+    transition: opacity 0.4s ease;
 }
 
 .compatibility-score-container p {

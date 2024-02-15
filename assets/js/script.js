@@ -16,6 +16,7 @@ userAndCrushInputs.forEach((input) => {
         input.value = ''; 
         compatibilityScoreContainer.style.visibility = "collapse";
         compatibilityScoreContainer.style.opacity = "0";
+        console.log("Removed");
     })
     
 });

@@ -1,0 +1,9 @@
+.container-fluid {
+    width: 1300px;
+    margin: 0px auto;
+}
+
+.collapse {
+    display: flex;
+    justify-content: space-between;
+}

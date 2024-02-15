@@ -14,6 +14,8 @@ compatibilityScoreForm.addEventListener('submit', (e) => {
 userAndCrushInputs.forEach((input) => {
     resetForm.addEventListener('click', () => {
         input.value = ''; 
+        compatibilityScoreContainer.style.visibility = "collapse";
+        compatibilityScoreContainer.style.opacity = "0";
     })
     
 });

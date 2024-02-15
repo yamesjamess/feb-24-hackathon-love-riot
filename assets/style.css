@@ -1,9 +1,15 @@
 .container-fluid {
-    width: 1300px;
+    width: 1200px;
     margin: 0px auto;
 }
 
 .collapse {
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .collapse {
+        justify-content: flex-start;
+    }
 }

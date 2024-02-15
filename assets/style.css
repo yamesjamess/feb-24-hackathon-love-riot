@@ -1,3 +1,5 @@
+
+/* Navbar  */
 .container-fluid {
     width: 1200px;
     margin: 0px auto;
@@ -8,12 +10,51 @@
     justify-content: space-between;
 }
 
+/* Header  */
 header {
     text-align: center;
     margin-top: 50px;
 }
 
+/* Main  */
+.display-compatibility-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.compatibility-section-img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.compatibility-score {
+    background-color: rgb(237, 237, 237);
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.compatibility-score span {
+    font-size: 4rem;
+}
+
+.compatibility-score-container {
+    display: none;
+}
+
+.compatibility-score-container p {
+    text-align: center;
+    margin-top: 10px;
+    line-height: 19px;
+}
+
+
+
 @media screen and (max-width: 767px) {
+    /* Header  */
     .collapse {
         justify-content: flex-start;
     }

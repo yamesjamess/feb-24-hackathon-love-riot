@@ -1,5 +1,38 @@
+/* Body  */
+body {
+    height: 100vh;
+}
+
+.first-half-color {
+    height: 50vh;
+    width: 100%;
+    background-color: #FFC2D1;
+    position: absolute;
+    z-index: -1;
+    top: 60px; 
+}
+
+.second-half-color {
+    height: 50vh;
+    width: 100%;
+    background-color: #FB6F92;
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+}
+
+.main-container {
+    background-color: white;
+    width: 600px;
+}
 
 /* Navbar  */
+
+.navbar {
+    background-color: #FFE5EC;
+    height: 60px;
+}
+
 .container-fluid {
     width: 1200px;
     margin: 0px auto;
@@ -16,6 +49,13 @@ header {
 }
 
 /* Main  */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
 .display-compatibility-container {
     width: 100%;
     display: flex;
@@ -61,7 +101,7 @@ header {
 .fa-rotate-left {
     background-color: red;
     color: white;
-
+    padding: 10px;
     border-radius: 50%;
     cursor: pointer;
 }

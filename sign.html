@@ -27,13 +27,13 @@
             <div></div>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/send.html">Send to crush</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="sign.html">Find your sign</a>
+                <a class="nav-link" href="#">Find your sign</a>
               </li>
             </ul>
           </div>
@@ -46,12 +46,12 @@
         <div class="border-animation"></div>
       <!-- Header  -->
       <header>
-        <h1 class="header-h1">Love Riot Calculator</h1>
+        <h1 class="header-h1">Find your sign</h1>
       </header>
         <!-- Display compatibility score  --> <!-- add a grid? -->
         <div class="display-compatibility-container">
           <div class="loading-spinner"></div>
-            <img class="compatibility-section-img" src="assets/images/heart.webp" alt="heart">
+            <img class="compatibility-section-img" src="#" alt="">
             <div class="compatibility-score-container">
                 <div class="compatibility-score">
                     <span id="compatibility-percentage">80%</span>
@@ -61,30 +61,12 @@
         </div>
         <!-- User input section -->
         <form class="user-input">
-            <span><i class="fa-solid fa-rotate-left"></i></span>
-            <div class="user-and-crush-input-container">
-            <div class="user-input-container">
-                <label for="user-name">
-                    Your name
-                    <input type="text" id="user-name" class="input" required>
-                </label>
-                <label for="user-star-sign">
-                    DOB / star sign
-                    <input type="text" id="user-star-sign" class="input" required>
-                </label>
-            </div>
-            <div class="crush-input-container">
-                <label for="crush-name">
-                    Crush's name
-                    <input type="text" id="crush-name" class="input" required>
-                </label>
-                <label for="crush-star-sign">
-                    DOB / star sign
-                    <input type="text" id="crush-star-sign" class="input" required>
-                </label>
+            <label for="date-of-birth">
+            <input type="date" id="date-of-birth" name="date-of-birth" value="2024-02-14" min="1900-01-01" max="2100-12-31">
+            </label>
             </div>
         </div>
-        <button id="calculate-btn">Calculate Love %</button>
+        <button id="calculate-btn">Find out your sign!</button>
     </form>
     </div>
   </main>

@@ -16,9 +16,10 @@
   <div class="first-half-color"></div>
   <div class="second-half-color"></div>
     <!-- Navbar  -->
-    <nav class="navbar navbar-expand-md">
+    <nav>
+    <div class="navbar navbar-expand-md">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Love Riot</a>
+          <a class="navbar-brand" href="#">Cupid & Co</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,17 +38,19 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
       <!-- Main  -->
       <main>
       <div class="main-container">
+        <div class="border-animation"></div>
       <!-- Header  -->
       <header>
-        <h1>The Love Calculator</h1>
+        <h1 class="header-h1">Love Riot Calculator</h1>
       </header>
         <!-- Display compatibility score  --> <!-- add a grid? -->
-        <div class="display-compatibility-container-text-center">
-          <div class="text-center">
+        <div class="display-compatibility-container">
+          <div class="loading-spinner"></div>
             <img class="compatibility-section-img" src="assets/images/heart.webp" alt="heart">
             <div class="compatibility-score-container">
                 <div class="compatibility-score">
@@ -55,7 +58,6 @@
                 </div>
                 <p>Compatibility<br>rating</p>
             </div>
-        </div>
         </div>
         <!-- User input section -->
         <form class="user-input">

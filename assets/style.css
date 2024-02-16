@@ -1,6 +1,30 @@
-/* Body  */
+/* ------------- Google Font ------------- */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+/* ------------- HTML Wide style ------------- */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
 body {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    max-width: 2500px;
+    margin-left: auto;
+    margin-right: auto;
     height: 100vh;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
 }
 
 .first-half-color {
@@ -30,6 +54,12 @@ body {
 .collapse {
     display: flex;
     justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
 }
 
 /* Header  */

@@ -29,4 +29,11 @@ document.getElementById('sendEmail').addEventListener('click', function() {
     });
 });
 
+document.getElementById('email').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        document.getElementById('sendEmail').click();
+    }
+});
+
 

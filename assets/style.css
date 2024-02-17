@@ -33,7 +33,7 @@ li {
     background-color: #FFC2D1;
     position: absolute;
     z-index: -1;
-    top: 0px; 
+    top: 0px;
 }
 
 .second-half-color {
@@ -168,7 +168,7 @@ h1 {
 }
 
 .user-input-container {
-    border-right: 3px solid rgba(24, 24, 24, 0.623); 
+    border-right: 3px solid rgba(24, 24, 24, 0.623);
     padding-right: 15px;
 }
 
@@ -211,7 +211,7 @@ h1 {
     }
 }
 
-/* Results page */ 
+/* Results page */
 .fa-rotate-center {
     padding: 8px;
     border-radius: 50%;
@@ -225,7 +225,7 @@ h1 {
 }
 
 .send-input-container {
-    border-right: 3px solid rgba(24, 24, 24, 0.623); 
+    border-right: 3px solid rgba(24, 24, 24, 0.623);
     padding-right: 15px;
 }
 
@@ -247,7 +247,7 @@ h1 {
     text-align: center;
 }
 
-#send-btn {
+#sendEmail {
     border: none;
     background-color: red;
     color: white;
@@ -258,7 +258,7 @@ h1 {
     margin-top: 4px;
 }
 
-/* Error page */ 
+/* Error page */
 
 .img404 {
     height: 300px;

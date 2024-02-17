@@ -87,8 +87,6 @@ li {
     color: #ff396a;
 }
 
-
-
 /* Navbar  */
 .navbar {
     max-width: 1200px;
@@ -104,6 +102,11 @@ li {
     height: 50px;
     width: 50px;
     margin-bottom: 10px;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: 500;
 }
 
 /* Header  */

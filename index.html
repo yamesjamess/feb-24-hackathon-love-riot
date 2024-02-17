@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Meta tags  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore love compatibility between zodiac signs and find insights into your relationships. Get detailed analyses of zodiac compatibility for a better understanding of your love life.">
-    <meta name="keywords" content="zodiac signs, love compatibility, astrology, relationships">
+    <meta
+      name="description"
+      content="Explore love compatibility between zodiac signs and find insights into your relationships. Get detailed analyses of zodiac compatibility for a better understanding of your love life."
+    >
+    <meta
+      name="keywords"
+      content="zodiac signs, love compatibility, astrology, relationships"
+    >
     <title>Love Riot</title>
     <!-- Bootstrap CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    >
     <!-- Styles  -->
     <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-  <div class="first-half-color"></div>
-  <div class="second-half-color"></div>
-  <div class="model-open-overlay"></div>
-  <div class="info-model-img-container">
-    <img class="info-model-img" src="assets/images/info-model.webp" alt="Information on which star sign equals which time of year">
-    <span id="close-model"><i class="fa-solid fa-xmark"></i></span>
-  </div>
+  </head>
+  <body>
+    <div class="first-half-color"></div>
+    <div class="second-half-color"></div>
+    <div class="modal-open-overlay"></div>
+    <div class="info-modal-img-container">
+      <img
+        class="info-modal-img"
+        src="assets/images/info-modal.webp"
+        alt="Information on which star sign equals which time of year"
+      >
+      <span id="close-modal"><i class="fa-solid fa-xmark"></i></span>
+    </div>
     <!-- Navbar  -->
     <nav>
-    <div class="navbar navbar-expand-md">
+      <div class="navbar navbar-expand-md">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="logo" src="assets/images/cupid.webp" alt="Cupid & Co logo">Cupid & Co</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="logo"
+              src="assets/images/cupid.webp"
+              alt="Cupid & Co logo"
+            >Cupid & Co</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -35,123 +64,153 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/send.html">Send to crush</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sign.html">Find your sign</a>
+                <a class="nav-link" href="about.html">About</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
-      <!-- Main  -->
-      <main>
+    <!-- Main  -->
+    <main>
       <div class="main-container">
         <div class="border-animation"></div>
-      <!-- Header  -->
-      <header>
-        <h1 class="header-h1">Love Riot Calculator</h1>
-      </header>
-        <!-- Display compatibility score  --> <!-- add a grid? -->
+        <!-- Header  -->
+        <header>
+          <h1 class="header-h1">Love Riot Calculator</h1>
+        </header>
+        <!-- Display compatibility score  -->
+        <!-- add a grid? -->
         <div class="display-compatibility-container">
           <div class="loading-spinner"></div>
-            <img class="compatibility-section-img" src="assets/images/cheerful.webp" alt="heart">
-            <div class="compatibility-score-container">
-                <div class="compatibility-score">
-                    <span id="compatibility-percentage">80%</span>
-                </div>
-                <p>Compatibility<br>rating</p>
+          <img
+            class="compatibility-section-img"
+            src="assets/images/cheerful.webp"
+            alt="winking heart"
+          >
+          <div class="compatibility-score-container">
+            <div class="compatibility-score">
+              <span id="compatibility-percentage">80%</span>
             </div>
+            <p>Compatibility<br>rating</p>
+          </div>
         </div>
         <!-- User input section -->
         <form class="user-input">
           <div class="info-reset-button-container">
-            <span><i class="fa-solid fa-info"></i></span>
-            <span><i class="fa-solid fa-rotate-left"></i></span>
+            <span
+              ><i class="fa-solid fa-info" title="Find out your sign here!"></i
+            ></span>
+            <span><i class="fa-solid fa-rotate-left" title="Reset"></i></span>
           </div>
-            <div class="user-and-crush-input-container">
+          <div class="user-and-crush-input-container">
             <div class="user-input-container">
-                <label for="user-name">
-                    Your name
-                    <input type="text" id="user-name" class="input" required>
-                </label>
-                <label for="user-star-sign">
-                  Star sign
-                  <select id="user-star-sign" class="input" required>
-                      <option value="">Select your star sign</option>
-                      <option value="Aries">Aries</option>
-                      <option value="Taurus">Taurus</option>
-                      <option value="Gemini">Gemini</option>
-                      <option value="Cancer">Cancer</option>
-                      <option value="Leo">Leo</option>
-                      <option value="Virgo">Virgo</option>
-                      <option value="Libra">Libra</option>
-                      <option value="Scorpio">Scorpio</option>
-                      <option value="Sagittarius">Sagittarius</option>
-                      <option value="Capricorn">Capricorn</option>
-                      <option value="Aquarius">Aquarius</option>
-                      <option value="Pisces">Pisces</option>
-                  </select>
+              <label for="user-name">
+                Your name
+                <input type="text" id="user-name" class="input" required>
+              </label>
+              <label for="user-star-sign">
+                Star sign
+                <select id="user-star-sign" class="input" required>
+                  <option value="">Select your star sign</option>
+                  <option value="Aries">Aries</option>
+                  <option value="Taurus">Taurus</option>
+                  <option value="Gemini">Gemini</option>
+                  <option value="Cancer">Cancer</option>
+                  <option value="Leo">Leo</option>
+                  <option value="Virgo">Virgo</option>
+                  <option value="Libra">Libra</option>
+                  <option value="Scorpio">Scorpio</option>
+                  <option value="Sagittarius">Sagittarius</option>
+                  <option value="Capricorn">Capricorn</option>
+                  <option value="Aquarius">Aquarius</option>
+                  <option value="Pisces">Pisces</option>
+                </select>
               </label>
             </div>
             <div class="crush-input-container">
-                <label for="crush-name">
-                    Crush's name
-                    <input type="text" id="crush-name" class="input" required>
-                </label>
-                <label for="crush-star-sign">
-                  Star sign
-                  <select id="crush-star-sign" class="input" required>
-                      <option value="">Select crush's star sign</option>
-                      <option value="Aries">Aries</option>
-                      <option value="Taurus">Taurus</option>
-                      <option value="Gemini">Gemini</option>
-                      <option value="Cancer">Cancer</option>
-                      <option value="Leo">Leo</option>
-                      <option value="Virgo">Virgo</option>
-                      <option value="Libra">Libra</option>
-                      <option value="Scorpio">Scorpio</option>
-                      <option value="Sagittarius">Sagittarius</option>
-                      <option value="Capricorn">Capricorn</option>
-                      <option value="Aquarius">Aquarius</option>
-                      <option value="Pisces">Pisces</option>
-                  </select>
+              <label for="crush-name">
+                Crush's name
+                <input type="text" id="crush-name" class="input" required>
+              </label>
+              <label for="crush-star-sign">
+                Star sign
+                <select id="crush-star-sign" class="input" required>
+                  <option value="">Select crush's star sign</option>
+                  <option value="Aries">Aries</option>
+                  <option value="Taurus">Taurus</option>
+                  <option value="Gemini">Gemini</option>
+                  <option value="Cancer">Cancer</option>
+                  <option value="Leo">Leo</option>
+                  <option value="Virgo">Virgo</option>
+                  <option value="Libra">Libra</option>
+                  <option value="Scorpio">Scorpio</option>
+                  <option value="Sagittarius">Sagittarius</option>
+                  <option value="Capricorn">Capricorn</option>
+                  <option value="Aquarius">Aquarius</option>
+                  <option value="Pisces">Pisces</option>
+                </select>
               </label>
             </div>
-        </div>
-        <button id="calculate-btn">Calculate Love %</button>
-    </form>
-    <div>
-      <!-- Email Form section -->
-      <div id="alertSuccess" class="alert alert-success" role="alert" style="display: none;">
-        Your message has been sent successfully!
+          </div>
+          <button id="calculate-btn">Calculate Love %</button>
+        </form>
+          <!-- Email Form section -->
+          <div class="email-form-section" id="email-form-section">
+            <div
+              id="alertSuccess"
+              class="alert alert-success"
+              role="alert"
+              style="display: none"
+            >
+              Your message has been sent successfully!
+            </div>
+            <div class="email-form-container">
+              <div class="image-container">
+                <img
+                  class="email-section-img"
+                  src="assets/images/pink-love-letter.webp"
+                  alt="heart in envelope"
+                >
+              </div>
+              <form class="user-input">
+                <span><i class="fa-solid fa-rotate-center"></i></span>
+                <div class="send-crush-input-container">
+                  <div class="send-crush-container">
+                    <h3>Send results to your crush?</h3>
+                  </div>
+                </div>
+                <div class="mb-3 text-center">
+                  <label for="email" class="form-label email-label">Email:</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Please enter email"
+                  >
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button type="button" id="sendEmail">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
       </div>
-      <form class="user-input">
-        <span><i class="fa-solid fa-rotate-center"></i></span>
-        <div class="send-crush-input-container">
-        <div class="send-crush-container">
-        <legend>Send results to your crush?</legend>
-      <div class="mb-3">
-        <label for="formGroupExampleInput2" class="form-label">Email:</label>
-        <input type="email" class="form-control" id="email" placeholder="Please enter email">
-      </div>
-      <div class="d-grid gap-2 col-6 mx-auto">
-        <button type="button" id="sendEmail">Send</button>
-      </div>
-    </form>
-    </div>
-    </div>
-  </main>
+    </main>
     <!-- Bootstrap JS CDN  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <!-- JS  -->
     <script src="assets/js/script.js"></script>
-    <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="assets/js/email.js"></script>
     <!-- Font awesome  -->
-    <script src="https://kit.fontawesome.com/a4f987afa2.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/a4f987afa2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

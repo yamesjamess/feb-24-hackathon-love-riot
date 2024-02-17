@@ -3,6 +3,10 @@ const calculateBtn = document.getElementById('calculate-btn')
 const compatibilityScoreForm = document.querySelector('.user-input')
 const compatibilityPercentage = document.getElementById('compatibility-percentage')
 const resetForm = document.querySelector('.fa-rotate-left')
+const infomodalBtn = document.querySelector('.fa-info')
+const infomodal = document.querySelector('.info-modal-img-container')
+const closemodal = document.getElementById('close-modal')
+const modalOverlay = document.querySelector('.modal-open-overlay')
 const userAndCrushInputs = document.querySelectorAll('.input')
 const heartImg = document.querySelector('.compatibility-section-img')
 const headerH1 = document.querySelector('.header-h1')
@@ -182,7 +186,7 @@ compatibilityScoreForm.addEventListener('submit', (e) => {
     headerH1.textContent = "Crunching numbers, igniting sparks!";
     loadingSpinner.style.visibility = "visible";
     loadingSpinner.style.opacity = "1";
-    
+
     setTimeout(() => {
       const intervalId = setInterval(() => {
         initialScore += 1;
@@ -201,3 +205,16 @@ compatibilityScoreForm.addEventListener('submit', (e) => {
       loadingSpinner.style.opacity = "0";
     }, 1500);
   });
+
+});
+
+infomodalBtn.addEventListener('click', (() => {
+    infomodal.style.visibility = "visible"
+    infomodal.style.opacity = "1"
+    modalOverlay.style.display = "block"
+    closemodal.addEventListener('click', (() => {
+    infomodal.style.visibility = "hidden"
+    infomodal.style.opacity = "0"
+    modalOverlay.style.display = "none"
+    }))
+}))

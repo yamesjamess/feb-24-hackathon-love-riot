@@ -1,6 +1,6 @@
 // Links to EmailJS Account -
 // Initialize EmailJS user ID
-emailjs.init("your_user_id_here");
+emailjs.init("eW8pEkcltsdImigyc");
 
 document.getElementById('sendEmail').addEventListener('click', function() {
     const email = document.getElementById('email').value;
@@ -8,9 +8,9 @@ document.getElementById('sendEmail').addEventListener('click', function() {
     const crushName = document.getElementById('crush-name').value;
     const compatibilityPercentage = document.getElementById('compatibility-percentage').innerText;
 
-    emailjs.send("your_service_id", "your_template_id", {
+    emailjs.send("service_6heqq18", "template_nq4vvcz", {
         to_email: email,
-        from_name: "Love Calculator",
+        subject_from_name: userName,
         crush_name: crushName,
         user_name: userName,
         compatibilityPercentage: compatibilityPercentage,

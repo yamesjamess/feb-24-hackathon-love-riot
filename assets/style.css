@@ -45,7 +45,7 @@ li {
     top: 0px;
 }
 
-.model-open-overlay {
+.modal-open-overlay {
     position: absolute;
     display: none;
     width: 100%;
@@ -54,7 +54,7 @@ li {
     z-index: 2;
 }
 
-.info-model-img-container {
+.info-modal-img-container {
     opacity: 0;
     visibility: hidden;
     background-color: white;
@@ -70,13 +70,13 @@ li {
     z-index: 4;
 }
 
-.info-model-img {
+.info-modal-img {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-#close-model {
+#close-modal {
     top: 20px;
     right: 20px;
     position: absolute;

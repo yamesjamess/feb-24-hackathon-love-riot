@@ -16,9 +16,18 @@ document.getElementById('sendEmail').addEventListener('click', function() {
         compatibilityPercentage: compatibilityPercentage,
     }).then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
-        alert('Love score email sent successfully!');
+        // Show Bootstrap alert
+        document.getElementById('alertSuccess').style.display = 'block';
     }, function(error) {
         console.log('FAILED...', error);
         alert('Failed to send the email.');
     });
 });
+
+// Show Bootstrap alert
+const alertSuccess = document.getElementById('alertSuccess');
+alertSuccess.style.display = 'block';
+// Hide after 5 seconds
+setTimeout(() => {
+    alertSuccess.style.display = 'none';
+}, 2000);

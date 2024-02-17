@@ -17,17 +17,16 @@ document.getElementById('sendEmail').addEventListener('click', function() {
     }).then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
         // Show Bootstrap alert
-        document.getElementById('alertSuccess').style.display = 'block';
+        const alertSuccess = document.getElementById('alertSuccess');
+        alertSuccess.style.display = 'block';
+        // Hide after 5 seconds
+        setTimeout(() => {
+            alertSuccess.style.display = 'none';
+        }, 2500);
     }, function(error) {
         console.log('FAILED...', error);
         alert('Failed to send the email.');
     });
 });
 
-// Show Bootstrap alert
-const alertSuccess = document.getElementById('alertSuccess');
-alertSuccess.style.display = 'block';
-// Hide after 5 seconds
-setTimeout(() => {
-    alertSuccess.style.display = 'none';
-}, 2000);
+

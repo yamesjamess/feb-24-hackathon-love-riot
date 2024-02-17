@@ -3,6 +3,10 @@ const calculateBtn = document.getElementById('calculate-btn')
 const compatibilityScoreForm = document.querySelector('.user-input')
 const compatibilityPercentage = document.getElementById('compatibility-percentage')
 const resetForm = document.querySelector('.fa-rotate-left')
+const infoModelBtn = document.querySelector('.fa-info')
+const infoModel = document.querySelector('.info-model-img-container')
+const closeModel = document.getElementById('close-model')
+const modelOverlay = document.querySelector('.model-open-overlay')
 const userAndCrushInputs = document.querySelectorAll('.input')
 const heartImg = document.querySelector('.compatibility-section-img')
 const headerH1 = document.querySelector('.header-h1')
@@ -45,6 +49,16 @@ userAndCrushInputs.forEach((input) => {
     
 });
 
+infoModelBtn.addEventListener('click', (() => {
+    infoModel.style.visibility = "visible"
+    infoModel.style.opacity = "1"
+    modelOverlay.style.display = "block"
+    closeModel.addEventListener('click', (() => {
+    infoModel.style.visibility = "hidden"
+    infoModel.style.opacity = "0"
+    modelOverlay.style.display = "none"
+    }))
+}))
 
 
 

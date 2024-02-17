@@ -121,7 +121,6 @@ main {
     width: 100%;
 }
 
-
 .main-container {
     height: 540px;
     background-color: white;
@@ -263,13 +262,6 @@ h1 {
     margin-top: 4px;
 }
 
-
-@media screen and (max-width: 767px) {
-    /* Header  */
-    .collapse {
-        justify-content: flex-start;
-    }
-}
 /* Results page */ 
 .fa-rotate-center {
     padding: 8px;
@@ -315,4 +307,12 @@ h1 {
     border-radius: 6px;
     font-size: 1rem;
     margin-top: 4px;
+}
+
+@media screen and (max-width: 767px) {
+    /* Header  */
+    .collapse {
+        justify-content: flex-start;
+    }
+
 }

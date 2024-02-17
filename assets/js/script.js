@@ -182,8 +182,12 @@ compatibilityScoreForm.addEventListener('submit', (e) => {
     
     // Display the compatibility score
     heartImg.style.visibility = "collapse";
+    heartImg.style.display = "none";
     headerH1.textContent = "Crunching numbers, igniting sparks!";
+    compatibilityScoreContainer.style.visibility = "collapse";
+    compatibilityScoreContainer.style.display = "none";
     loadingSpinner.style.visibility = "visible";
+    loadingSpinner.style.display = "flex";
     loadingSpinner.style.opacity = "1";
 
     setTimeout(() => {
@@ -196,11 +200,13 @@ compatibilityScoreForm.addEventListener('submit', (e) => {
           compatibilityPercentage.textContent = initialScore + "%";
         }
       }, 20);
-      
+
       headerH1.textContent = "Love Riot Calculator";
       compatibilityScoreContainer.style.visibility = "visible";
+      compatibilityScoreContainer.style.display = "flex";
       compatibilityScoreContainer.style.opacity = "1";
       loadingSpinner.style.visibility = "collapse";
+      loadingSpinner.style.display = "none";
       loadingSpinner.style.opacity = "0";
     }, 1500);
   });
@@ -209,8 +215,11 @@ userAndCrushInputs.forEach((input) => {
 resetForm.addEventListener('click', () => {
     input.value = ''; 
     compatibilityScoreContainer.style.visibility = "collapse";
+    compatibilityScoreContainer.style.display = "none";
     compatibilityScoreContainer.style.opacity = "0";
-    heartImg.style.visibility = "visible"
+    heartImg.style.visibility = "visible";
+    heartImg.style.display = "block";
 })
 
 });
+

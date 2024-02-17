@@ -108,21 +108,17 @@ h1 {
     font-size: 2rem;
 }
 
-.display-compatibility-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .loading-spinner {
     opacity: 0;
     visibility: collapse;
+    display: none;
     border: 8px solid #FB6F92;
     border-top: 8px solid transparent;
     border-radius: 50%;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     animation: spin 1s linear infinite;
 
 }
@@ -136,10 +132,21 @@ h1 {
     }
 }
 
-.compatibility-section-img, .email-section-img{
+.compatibility-section-img, .email-section-img, .compatibility-sticker-img{
     width: 200px;
     height: 200px;
     object-fit: contain;
+}
+
+.display-compatibility-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compatibility-sticker-container {
+    margin-right: 20px;
 }
 
 .compatibility-score {
@@ -147,6 +154,7 @@ h1 {
     border-radius: 6px;
     padding: 5px 15px 10px 15px;
     margin-bottom: 6px;
+    margin-right: 20px;
 }
 
 .compatibility-score span {
@@ -158,11 +166,14 @@ h1 {
 .compatibility-score-container {
     visibility: collapse;
     opacity: 0;
+    display: none;
+    align-items: center;
 }
 
 .compatibility-score-container p {
     text-align: center;
     line-height: 19px;
+    margin: 0;
 }
 
 .user-input {
@@ -245,7 +256,7 @@ h1 {
     }
 }
 
-/* Results page */
+/* Email Section */
 .fa-rotate-center {
     padding: 8px;
     border-radius: 50%;

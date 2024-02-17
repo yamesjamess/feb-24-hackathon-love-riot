@@ -6,7 +6,6 @@ const resetForm = document.querySelector('.fa-rotate-left')
 const infomodalBtn = document.querySelector('.fa-info')
 const infomodal = document.querySelector('.info-modal-img-container')
 const closemodal = document.getElementById('close-modal')
-const modalOverlay = document.querySelector('.modal-open-overlay')
 const userAndCrushInputs = document.querySelectorAll('.input')
 const heartImg = document.querySelector('.compatibility-section-img')
 const headerH1 = document.querySelector('.header-h1')
@@ -215,14 +214,3 @@ resetForm.addEventListener('click', () => {
 })
 
 });
-
-infomodalBtn.addEventListener('click', (() => {
-    infomodal.style.visibility = "visible"
-    infomodal.style.opacity = "1"
-    modalOverlay.style.display = "block"
-    closemodal.addEventListener('click', (() => {
-    infomodal.style.visibility = "hidden"
-    infomodal.style.opacity = "0"
-    modalOverlay.style.display = "none"
-    }))
-}))

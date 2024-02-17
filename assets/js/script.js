@@ -206,6 +206,14 @@ compatibilityScoreForm.addEventListener('submit', (e) => {
     }, 1500);
   });
 
+userAndCrushInputs.forEach((input) => {
+resetForm.addEventListener('click', () => {
+    input.value = ''; 
+    compatibilityScoreContainer.style.visibility = "collapse";
+    compatibilityScoreContainer.style.opacity = "0";
+    heartImg.style.visibility = "visible"
+})
+
 });
 
 infomodalBtn.addEventListener('click', (() => {

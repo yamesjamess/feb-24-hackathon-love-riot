@@ -11,7 +11,9 @@ document.getElementById('sendEmail').addEventListener('click', function() {
     emailjs.send("your_service_id", "your_template_id", {
         to_email: email,
         from_name: "Love Calculator",
-        message: `Hey, the love score between ${userName} and ${crushName} is: ${compatibilityPercentage}`,
+        crush_name: crushName,
+        user_name: userName,
+        compatibilityPercentage: compatibilityPercentage,
     }).then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
         alert('Love score email sent successfully!');

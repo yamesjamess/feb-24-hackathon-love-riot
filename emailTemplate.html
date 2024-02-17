@@ -1,0 +1,54 @@
+<!-- Make chnages to this template and then copy into Love Riot's EmailJS account-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Calculator Result</title>
+    <style>
+        body {
+            background-color: #FFB3C6; /* Light pink background */
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            font-size: 24px;
+            text-align: center;
+            color: black; /* Adjust the color to fit the pink theme */
+        }
+        .content {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">The Love Calculator</div>
+        <div class="content">
+            <!-- Red heart image, hosted on AWS S3 account; URL is publicly accessible -->
+            <img src="https://russ-demo-s3-bucket.s3.eu-west-2.amazonaws.com/heart.jpg" alt="Red Heart" style="width: 100px; height: auto;">
+            <p>Hey <strong>{{crush_name}}</strong>!</p>
+<p>You have just been matched by your crush <strong>{{user_name}}</strong>!</p>
+<p>Your love score is: <strong>{{compatibilityPercentage}}</strong></p>
+            <!-- You can add more personalized content here -->
+        </div>
+        <div class="footer">
+            Sent with ♥ from the Love Calculator
+        </div>
+    </div>
+</body>
+</html>

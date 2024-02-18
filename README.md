@@ -127,7 +127,7 @@ Logo image:
 
 ![screenshot of logo](/documentation/readme/logo-image.png)
 
-Logo with brand name:
+Logo with brand name (against pink website background):
 
 ![screenshot of logo with brand name](/documentation/readme/logo-brand-name.jpg)
 

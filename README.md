@@ -106,6 +106,11 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
     ![screenshot](#)
 
 
+### Future Features
+
+- Adding a horoscope API for generating detailed compatility / prediction reports along with the compatibility score.
+
+
 ## Brand Identity
 
 

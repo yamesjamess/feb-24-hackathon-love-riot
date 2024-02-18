@@ -57,4 +57,4 @@ The Cupid & Co Team:
 - [Meghan Roberts](https://github.com/MeganRoberts-dev)
 - [Melissa Buckingham](https://github.com/MelissaBuckingham)
 - [Russ Smith](https://github.com/rstan-dev)
-- [Tarah Waters](https://github.com/tarawaters)
+- [Tarah Waters](https://github.com/tarahwaters)

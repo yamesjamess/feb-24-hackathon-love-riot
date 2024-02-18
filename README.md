@@ -129,7 +129,7 @@ Logo image:
 
 Logo with brand name:
 
-![screenshot of logo](/documentation/readme/logo-brand-name.jpg)
+![screenshot of logo with brand name](/documentation/readme/logo-brand-name.jpg)
 
 
 **Byline:**
@@ -137,7 +137,13 @@ Logo with brand name:
 
 **Colour palette:**
 
+The following colour palette was created using [Coloors](https://coolors.co/) based on the theme of 'love' :
 
+![screenshot of colourscheme](/documentation/readme/coloors-color-scheme.png)
+
+The following set of [Flaticon](https://www.flaticon.com/) stickers were then found which aligned well with the pink theme (see Credits for attribution):
+
+![screenshot of love-themed stickers](/documentation/readme/flaticon-app-images.png)
 
 
 ## Tech

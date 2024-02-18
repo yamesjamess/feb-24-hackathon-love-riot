@@ -44,6 +44,16 @@ li {
     top: 0px;
 }
 
+.fix-top {
+    position: fixed !important;
+    top: 0px;
+}
+
+.fix-bottom {
+    position: fixed !important;
+    bottom: 0px;
+}
+
 .info-modal-img {
     width: 100%;
     height: 100%;
@@ -439,7 +449,6 @@ h1 {
 }
 
  .results-main {
-    height: 50%;
-    width: 50%;
-    outline: 2px solid red;
+    height: 70%;
+    width: 60%;
  }

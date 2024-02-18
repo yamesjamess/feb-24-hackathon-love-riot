@@ -269,6 +269,10 @@ h1 {
     margin-top: 4px;
 }
 
+.no-border {
+    border: none;
+}
+
 /* Email Section */
 .fa-rotate-center {
     padding: 8px;
@@ -457,6 +461,8 @@ h1 {
     /* For Firefox */
     scrollbar-width: thin;
     scrollbar-color: #ff396a rgb(240, 240, 240);
+    border: 1px solid #FB6F92;
+    border-radius: 10px;
 
     /* For Chrome and Safari */
     &::-webkit-scrollbar {
@@ -492,7 +498,7 @@ h1 {
 }
 
 .profile a {
-    color: blue;
+    color: #ff396a;
     text-decoration: none;
 }
 
@@ -511,12 +517,12 @@ h1 {
 }
 
 .results-main {
-    height: 70%;
+    height: 100%;
     width: 60%;
 }
 
-.black-border {
-    outline: 1px solid black;
+.pink-border {
+    outline: 1px solid #ff396a;
     height: 100%;
 }
 

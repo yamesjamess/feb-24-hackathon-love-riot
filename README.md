@@ -113,14 +113,14 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
     -
 
-    ![screenshot of zodiac modal](/documentation/readme/features/feature-infographic.jpg)
+    ![screenshot of zodiac infographic](/documentation/readme/features/feature-infographic.jpg)
 
 - **Send Results by Email**
 
     -
 
     ![screenshot email results option](/documentation/readme/features/feature-send-results-email.jpg)
-    ![screenshot email results option](/documentation/readme/features/feature-email-template.jpg)
+    ![screenshot of email template after sending results](/documentation/readme/features/feature-email-template.jpg)
 
 
 - **Results Page (zodiac compatibility details)**
@@ -128,7 +128,7 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
     -
 
     ![screenshot of results page with zodiac details](/documentation/readme/features/feature-results-page.jpg)
-    ![screenshot of results page with zodiac details](/documentation/readme/features/feature-zodiac-modal.jpg)
+    ![screenshot of zodiac results modal](/documentation/readme/features/feature-zodiac-modal.jpg)
 
 
 

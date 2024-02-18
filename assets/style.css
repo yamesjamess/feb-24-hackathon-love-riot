@@ -96,6 +96,7 @@ header {
     text-align: center;
 }
 
+/* ------- Index HTML ---------- */
 /* Main  */
 main {
     display: flex;
@@ -107,7 +108,7 @@ main {
 
 
 .main-container {
-    height: 540px;
+    height: 580px;
     background-color: white;
     width: 600px;
     padding: 30px;
@@ -314,6 +315,7 @@ h1 {
 .email-form-container {
     display: flex;
     align-items: center;
+    margin-top: 50px;
 }
 
 .email-form-section {
@@ -333,10 +335,10 @@ h1 {
     align-items: center;
 }
 
-/* ------- Index HTML ---------- */
+
 /* About */
 .about-main-container {
-    height: 840px;
+    height: 900px;
     background-color: white;
     width: 750px;
     padding: 30px;
@@ -486,6 +488,11 @@ h1 {
     width: 60%;
  }
 
+.black-border {
+    outline: 1px solid black;
+    height: 100%;
+}
+
  @media screen and (max-width: 767px) {
     /* Header  */
     .collapse {
@@ -584,12 +591,3 @@ h1 {
         height: 182vh;
     }
 }
-
-
-
-
-
-
-
-
-

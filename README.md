@@ -81,8 +81,8 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 | Info modal to give users guidance on selecting the correct star-sign         |     5      |            5            |    Y    |
 | Reset option that clears the calculator form                                 |     5      |            5            |    Y    |
 | Option to send results by email to a friend (via an email form)              |     4      |            5            |    Y    |
-| Pricing page for users to access extra brand services                        |     3      |            2            |    N    |
-| Results page with in-depth descriptions of zodiac pair compatibility [X]     |     3      |            2            |    X    |
+| Results page with descriptions of zodiac pair compatibility                  |     4      |            4            |    Y    |
+| Pricing page for users to access extra brand services [X]                    |     3      |            2            |    X    |
 
 
 

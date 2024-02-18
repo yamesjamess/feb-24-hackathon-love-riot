@@ -116,6 +116,18 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
 **Brand name and Logo options:**
 
+The following details were decided as a Team:
+
+Brand name: **Cupid&Co**
+
+And app name: **Love Riot**
+
+Logo image:
+
+![screenshot of logo](/documentation/readme/logo-image.png)
+
+Logo with brand name:
+
 
 **Byline:**
 

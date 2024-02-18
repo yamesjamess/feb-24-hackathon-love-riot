@@ -112,6 +112,7 @@ main {
     width: 600px;
     padding: 30px;
     border-radius: 20px;
+    margin: 25px;
 }
 
 h1 {
@@ -342,6 +343,15 @@ h1 {
 
 /* ------- Index HTML ---------- */
 /* About */
+.about-main-container {
+    height: 840px;
+    background-color: white;
+    width: 750px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 25px;
+}
+
 .card-body {
     background-color: pink;
 }
@@ -437,6 +447,37 @@ h1 {
     outline: none;
 }
 
+/* Profiles Section */
+.profiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.profile {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    margin: 5px 0;
+}
+
+.profile a {
+    color: blue;
+    text-decoration: none;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+
 /* Results Page */
 
 .card-footer{
@@ -452,3 +493,4 @@ h1 {
     height: 70%;
     width: 60%;
  }
+

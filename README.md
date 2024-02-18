@@ -15,9 +15,9 @@ Compatibility scoring is displayed as a percentage match of the astrological sta
 
 ## Showcase
 
-![Am I Responsive?](documentation/readme/am-i-responsive.webp "Am I Responsive? Website Mockup")
+![Am I Responsive?](documentation/readme/amiresponsive-game-page.jpg "Am I Responsive? Website Mockup")
 
-The **Am I Responsive?** link can be found here - [Am I Responsive?](#)
+The **Am I Responsive?** link can be found here - [Am I Responsive?](https://ui.dev/amiresponsive?url=https://yamesjamess.github.io/feb-24-hackathon-love-riot/game.html)
 
 A **deployed link** to the live website can be found here at [Love Riot](https://yamesjamess.github.io/feb-24-hackathon-love-riot/#)
 
@@ -211,7 +211,7 @@ The following set of [Flaticon](https://www.flaticon.com/) stickers were then fo
 - [Esprima](https://esprima.org/demo/validate.html) - used to validate JS syntax
 - [W3 HTML validator](https://validator.w3.org/nu/) - used to validate HTML
 - [W3 Jigsaw](https://jigsaw.w3.org/css-validator/validator) - used to validate CSS
-- [AmIResponsive?](#) - used to create a mockup of the website
+- [AmIResponsive?](https://ui.dev/amiresponsive) - used to create a mockup of the website
 
 
 You can access our project on GitHub [here](https://yamesjamess.github.io/feb-24-hackathon-love-riot/#)

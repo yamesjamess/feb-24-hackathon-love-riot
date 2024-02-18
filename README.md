@@ -111,6 +111,21 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 - Adding a horoscope API for generating detailed compatility / prediction reports along with the compatibility score.
 - Adding a pricing page for user to subscribe to our services such as reiki healing, cosmic realignment etc.
 
+## Wireframes
+
+Wireframes for the website were created using the UI wireframe tool, [Balsamiq](https://balsamiq.com/), to plan the layout with a mobile-first approach.
+
+The layout and design was kept consistent across the pages / devices as much as possible.
+
+**Mobile Device Love Calculator with pre-game layout (left) and results page layout (right)**:
+
+![wireframes](/documentation/readme/mobile-wireframes-love-calculator.jpg)
+
+**Note** - The square boxes with X inside was used to illustrate a decorative / animated image. And in the early planning stages we had not yet decided between using 'birthdate' or 'star-sign' user input.
+
+
+
+
 
 ## Brand Identity
 

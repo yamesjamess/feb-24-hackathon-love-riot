@@ -265,14 +265,6 @@ h1 {
     margin-top: 4px;
 }
 
-
-@media screen and (max-width: 767px) {
-    /* Header  */
-    .collapse {
-        justify-content: flex-start;
-    }
-}
-
 /* Email Section */
 .fa-rotate-center {
     padding: 8px;
@@ -499,4 +491,103 @@ h1 {
 .black-border {
     outline: 1px solid black;
     height: 100%;
+}
+
+ @media screen and (max-width: 767px) {
+    /* Header  */
+    .collapse {
+        justify-content: flex-start;
+    }
+    .main-container {
+        width: 450px;
+        margin-bottom: 20px;
+    }
+    .main-about-outer-container {
+        height: 100vh;
+    }
+    .about-main-container {
+        height: 750px;
+    }
+    .index-main-container {
+        height: 600px;
+    }
+    .email-form-container {
+        width: 450px;
+    }
+    .email-section-img{
+        width: 130px;
+        height: 130px;
+        object-fit: contain;
+    }
+    .email-form-container h3 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main-container {
+        width: 330px;
+    }
+    .header-h1 {
+        font-size: 1.5rem;
+    }
+    .main-about-outer-container {
+        height: 110vh;
+    }
+    .about-main-container {
+        height: 780px;
+        width: 370px;
+    }
+    .about-main-container p {
+        font-size: 1.1rem;
+    }
+    .index-main-container {
+        height: 640px;
+    }
+    .email-form-container {
+        display: block;
+    }
+    .email-form-section {
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        padding-bottom: 50px;
+    }
+    .user-input-container label, .crush-input-container label {
+        width: 130px;
+        font-size: 1rem;
+    }
+    .user-input-container input, .crush-input-container input {
+        width: 130px;
+        font-size: 1rem;
+    }
+    .user-input-container select, .crush-input-container select {
+        width: 140px;
+        font-size: 0.9rem;
+    }
+    .email-section-img{
+        display: none;
+    }
+    .compatibility-score-container {
+        height: 199px;
+        margin-bottom: 15px;
+    }
+    .compatibility-sticker-img {
+        width: 130px;
+        height: 130px;
+    }
+    #compatibility-percentage {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+@media screen and (max-height: 750px) {
+    .second-half-color {
+        height: 152vh;
+    }
+}
+@media screen and (max-height: 500px) {
+    .second-half-color {
+        height: 182vh;
+    }
 }

@@ -89,24 +89,43 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
 ### Features
 
-- **Feature 1**
+- **Landing Page**
 
     -
 
-    ![screenshot](#)
+    ![screenshot of landing page](/documentation/readme/features/feature-landing-page.jpg)
 
-- **Feature 2**
+- **Love Calculator Game Grid**
 
     -
 
-    ![screenshot](#) 
+    ![screenshot of love calculator game grid](/documentation/readme/features/feature-love-riot-calculator-grid.jpg) 
 
 
-- **Feature 3**
+- **Star-sign Select Tool**
 
     - 
 
-    ![screenshot](#)
+    ![screenshot of star-sign select option menu](/documentation/readme/features/feature-star-sign-select.jpg)
+
+
+- **Infographic modal (via the 'i' info button)**
+
+    -
+
+    ![screenshot of zodiac modal](/documentation/readme/features/feature-zodiac-modal.jpg)
+
+- **Send Results by Email**
+
+    -
+
+    ![screenshot email results option](/documentation/readme/features/feature-send-results-email.jpg)
+
+- **Results Page (zodiac compatibility details)**
+
+    -
+
+    ![screenshot of results page with zodiac details](/documentation/readme/features/feature-results-page.jpg)
 
 
 ### Future Features

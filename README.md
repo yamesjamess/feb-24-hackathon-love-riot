@@ -65,7 +65,7 @@ As a user I would like:
 
 ## Trade Offs
 
-Considering the user requirements and expectations, the table below shows the features that should be implemented to make an appealing and functional interactive Love Calculator for users. Due to time constraints and my current skill level, some of these features are not implemented at this stage.
+Considering the user requirements and expectations, the table below shows the features that should be implemented to make an appealing and functional interactive Love Calculator for users. Due to time constraints, some of these features are not implemented at this stage.
 
 [X] indicates opportunities that were considered at the planning stage but were deemed not viable/feasible for this project sprint.
 Y / N indicates a Yes / No as to whether each opportunity was acheived and implemented at this stage.
@@ -81,7 +81,9 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 | Info modal to give users guidance on selecting the correct star-sign         |     5      |            5            |    Y    |
 | Reset option that clears the calculator form                                 |     5      |            5            |    Y    |
 | Option to send results by email to a friend (via an email form)              |     4      |            5            |    Y    |
+| Pricing page for users to access extra brand services                        |     3      |            2            |    N    |
 | Results page with in-depth descriptions of zodiac pair compatibility [X]     |     3      |            2            |    X    |
+
 
 
 ### Features

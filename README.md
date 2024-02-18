@@ -56,6 +56,7 @@ The target audience of this game is anyone interested in learning about astrolog
 As a user I would like:
 - to understand what the app is about and how to use it.
 - to calculate a love compatibility score using the interactive calculator on screen.
+- to have access to more details of zodiac compatibility to complement the calculator results.
 - for the animation and scoring to appear smoothly and accurately.
 - to have some help with choosing the correct star sign for myself or my crush.
 - to navigate through the elements of the game / website easily

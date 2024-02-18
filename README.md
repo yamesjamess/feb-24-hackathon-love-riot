@@ -128,6 +128,8 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
     -
 
     ![screenshot of results page with zodiac details](/documentation/readme/features/feature-results-page.jpg)
+    ![screenshot of results page with zodiac details](/documentation/readme/features/feature-zodiac-modal.jpg)
+
 
 
 ### Future Features

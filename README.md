@@ -15,9 +15,9 @@ Compatibility scoring is displayed as a percentage match of the astrological sta
 
 ## Showcase
 
-![Am I Responsive?](documentation/readme/am-i-responsive.webp "Am I Responsive? Website Mockup")
+![Am I Responsive?](documentation/readme/amiresponsive-game-page.jpg "Am I Responsive? Website Mockup")
 
-The **Am I Responsive?** link can be found here - [Am I Responsive?](#)
+The **Am I Responsive?** link can be found here - [Am I Responsive?](https://ui.dev/amiresponsive?url=https://yamesjamess.github.io/feb-24-hackathon-love-riot/game.html)
 
 A **deployed link** to the live website can be found here at [Love Riot](https://yamesjamess.github.io/feb-24-hackathon-love-riot/#)
 
@@ -89,24 +89,48 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
 ### Features
 
-- **Feature 1**
+- **Landing Page**
 
     -
 
-    ![screenshot](#)
+    ![screenshot of landing page](/documentation/readme/features/feature-landing-page.jpg)
 
-- **Feature 2**
+- **Love Calculator Game Grid**
 
     -
 
-    ![screenshot](#) 
+    ![screenshot of love calculator game grid](/documentation/readme/features/feature-love-riot-calculator-grid.jpg)
+    ![screenshot of reset and info buttons](/documentation/readme/features/feature-info-reset-buttons.jpg) 
 
 
-- **Feature 3**
+- **Star-sign Select Tool**
 
     - 
 
-    ![screenshot](#)
+    ![screenshot of star-sign select option menu](/documentation/readme/features/feature-star-sign-select.jpg)
+
+
+- **Infographic modal (via the 'i' info button)**
+
+    -
+
+    ![screenshot of zodiac infographic](/documentation/readme/features/feature-infographic.jpg)
+
+- **Send Results by Email**
+
+    -
+
+    ![screenshot email results option](/documentation/readme/features/feature-send-results-email.jpg)
+    ![screenshot of email template after sending results](/documentation/readme/features/feature-email-template.jpg)
+
+
+- **Results Page (zodiac compatibility details)**
+
+    -
+
+    ![screenshot of results page with zodiac details](/documentation/readme/features/feature-results-page.jpg)
+    ![screenshot of zodiac results modal](/documentation/readme/features/feature-zodiac-modal.jpg)
+
 
 
 ### Future Features
@@ -211,7 +235,7 @@ The following set of [Flaticon](https://www.flaticon.com/) stickers were then fo
 - [Esprima](https://esprima.org/demo/validate.html) - used to validate JS syntax
 - [W3 HTML validator](https://validator.w3.org/nu/) - used to validate HTML
 - [W3 Jigsaw](https://jigsaw.w3.org/css-validator/validator) - used to validate CSS
-- [AmIResponsive?](#) - used to create a mockup of the website
+- [AmIResponsive?](https://ui.dev/amiresponsive) - used to create a mockup of the website
 
 
 You can access our project on GitHub [here](https://yamesjamess.github.io/feb-24-hackathon-love-riot/#)

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Explore love compatibility between zodiac signs and find insights into your relationships. Get detailed analyses of zodiac compatibility for a better understanding of your love life." />
+  <meta name="keywords" content="zodiac signs, love compatibility, astrology, relationships" />
+  <title>Love Riot</title>
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- Styles  -->
+  <link rel="stylesheet" href="assets/style-copy.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <main>
+    <header>
+      <div class="container">
+        <div class="main-container">
+          <div class="border-animation"></div>
+          <header>
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <a href="index.html">
+                    Home
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="game.html">
+                    Play
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="about.html">
+                    About Us
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="header-h1 text-center">
+
+              <h3>Cupid and Co.</h3>
+              <h1>Game<span><b>.</b></span></h1>
+            </div>
+          </header>
+          <!-- Calculator  -->
+          <!-- Card -->
+          <div class="card text-center">
+            <div class="card-body">
+              <div class="card-text">
+
+                <!-- Images / Spinner -->
+                <div class="loading-spinner"></div>
+                <img class="compatibility-section-img" src="assets/images/cheerful.webp" alt="winking heart" />
+                <div class="compatibility-score-container">
+                  <div class="compatibility-sticker-container">
+                    <span id="compatibility-sticker">
+                  </div>
+                </div>
+                <!-- Java -->
+                <div class="compatibility-score">
+                  <span id="compatibility-percentage">80%</span>
+                  <p>Compatibility<br />rating</p>
+                </div>
+              </div>
+            </div>
+            <div id="result-link-container">
+              <p class="result-link">
+                To read a full report of your score click
+                <a href="results.html">here</a>.
+              </p>
+            </div>
+            <!-- User input -->
+            <form class="user-input">
+              <div class="info-reset-button-container">
+                <span><i class="fa-solid fa-info" title="Find out your sign here!" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"></i></span>
+                <span><i class="fa-solid fa-rotate-left" title="Reset"></i></span>
+              </div>
+              <div class="user-and-crush-input-container">
+                <div class="user-input-container">
+                  <label for="user-name">
+                    Your name
+                    <input type="text" id="user-name" class="input" required />
+                  </label>
+                  <label for="user-star-sign">
+                    Star sign
+                    <select id="user-star-sign" class="input" required>
+                      <option value="">Select your star sign</option>
+                      <option value="Aries">Aries</option>
+                      <option value="Taurus">Taurus</option>
+                      <option value="Gemini">Gemini</option>
+                      <option value="Cancer">Cancer</option>
+                      <option value="Leo">Leo</option>
+                      <option value="Virgo">Virgo</option>
+                      <option value="Libra">Libra</option>
+                      <option value="Scorpio">Scorpio</option>
+                      <option value="Sagittarius">Sagittarius</option>
+                      <option value="Capricorn">Capricorn</option>
+                      <option value="Aquarius">Aquarius</option>
+                      <option value="Pisces">Pisces</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="crush-input-container">
+                  <label for="crush-name">
+                    Crush's name
+                    <input type="text" id="crush-name" class="input" required />
+                  </label>
+                  <label for="crush-star-sign">
+                    Star sign
+                    <select id="crush-star-sign" class="input" required>
+                      <option value="">Select crush's star sign</option>
+                      <option value="Aries">Aries</option>
+                      <option value="Taurus">Taurus</option>
+                      <option value="Gemini">Gemini</option>
+                      <option value="Cancer">Cancer</option>
+                      <option value="Leo">Leo</option>
+                      <option value="Virgo">Virgo</option>
+                      <option value="Libra">Libra</option>
+                      <option value="Scorpio">Scorpio</option>
+                      <option value="Sagittarius">Sagittarius</option>
+                      <option value="Capricorn">Capricorn</option>
+                      <option value="Aquarius">Aquarius</option>
+                      <option value="Pisces">Pisces</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="text-center">
+                  <button id="calculate-btn">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front">Calculate Love %</span></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <!-- Email section -->
+  <div class="email-form-section" id="email-form-section">
+    <div id="alertSuccess" class="alert alert-success" role="alert" style="display: none">
+      Your message has been sent successfully!
+    </div>
+    <div class="email-form-container">
+      <div class="image-container">
+        <img class="email-section-img" src="assets/images/pink-love-letter.webp" alt="heart in envelope" />
+      </div>
+      <form class="user-input">
+        <span><i class="fa-solid fa-rotate-center"></i></span>
+        <div class="send-crush-input-container">
+          <div class="send-crush-container">
+            <h3>Send results to your crush?</h3>
+          </div>
+        </div>
+        <div class="mb-3 text-center">
+          <label for="email" class="form-label email-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Please enter email" />
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button type="button" id="sendEmail">Send</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="infomationModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="infomationModalLabel">
+              Use this infographic to find your sign!
+            </h1>
+            <i class="fas fa-xmark" data-bs-dismiss="modal" aria-label="Close"></i>
+          </div>
+          <div class="modal-body">
+            <img class="info-modal-img" src="assets/images/info-modal.webp"
+              alt="Information on which star sign equals which time of year" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <!-- JS  -->
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="assets/js/email.js"></script>
+    <!-- Font awesome  -->
+    <script src="https://kit.fontawesome.com/a4f987afa2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -128,6 +128,8 @@ Logo image:
 
 Logo with brand name:
 
+![screenshot of logo](/documentation/readme/logo-brand-name.jpg)
+
 
 **Byline:**
 

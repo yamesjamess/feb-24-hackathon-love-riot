@@ -86,6 +86,24 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
 ### Features
 
+- **Feature 1**
+
+    -
+
+    ![screenshot](#)
+
+- **Feature 2**
+
+    -
+
+    ![screenshot](#) 
+
+
+- **Feature 3**
+
+    - 
+
+    ![screenshot](#)
 
 
 ## Brand Identity

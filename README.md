@@ -38,7 +38,7 @@ In the spirit of Valentine's day, our objective was to create a functioning love
 
 ### Target Audience
 
-The target audience of this game is anyone interested in learning about astrolgical star-sign compatibility in romantic relationships. It can also be played as a light hearted game for all ages, especially around Valentine's Day, where the results can be forwarded to friends (or a crush) by email.
+The target audience of this game is anyone interested in learning about astrological star-sign compatibility in romantic relationships. It can also be played as a light hearted game for all ages, especially around Valentine's Day, where the results can be forwarded to friends (or a crush) by email.
 
 ### User Requirements and Expectations
 

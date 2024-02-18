@@ -109,6 +109,7 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 ### Future Features
 
 - Adding a horoscope API for generating detailed compatility / prediction reports along with the compatibility score.
+- Adding a pricing page for user to subscribe to our services such as reiki healing, cosmic realignment etc.
 
 
 ## Brand Identity

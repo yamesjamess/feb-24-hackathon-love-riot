@@ -15,6 +15,8 @@ const heartImg = document.querySelector(".compatibility-section-img");
 const headerH1 = document.querySelector(".header-h1");
 const loadingSpinner = document.querySelector(".loading-spinner");
 const stickerImg = document.getElementById("sticker");
+const resultsLink = document.getElementById("results-link");
+
 const compatibilityData = {
   "Aries-Aries": 50,
   "Aries-Taurus": 38,
@@ -186,7 +188,6 @@ compatibilityScoreForm.addEventListener("submit", (e) => {
   // Reset the initialScore before calculating the new compatibility score
   let initialScore = 0;
 
-
   // Display the compatibility score
   heartImg.style.visibility = "collapse";
   heartImg.style.display = "none";
@@ -205,20 +206,21 @@ compatibilityScoreForm.addEventListener("submit", (e) => {
         clearInterval(intervalId);
       } else {
         compatibilityPercentage.textContent = initialScore + "%";
+        resultsLink.style.display = 'block';
       }
     }, 20);
 
     // Display stickers based on compatibility score
     if (score >= 0 && score < 30) {
-      stickerImg.src = 'assets/images/shock.webp'
-    } else if (score >= 30 && score < 50){
-      stickerImg.src = 'assets/images/confused.webp'
-    } else if (score >= 50 && score < 70){
-      stickerImg.src = 'assets/images/sorry.webp'
-    } else if (score >= 70 && score < 90){
-      stickerImg.src = 'assets/images/pink-cool.webp'
+      stickerImg.src = "assets/images/shock.webp";
+    } else if (score >= 30 && score < 50) {
+      stickerImg.src = "assets/images/confused.webp";
+    } else if (score >= 50 && score < 70) {
+      stickerImg.src = "assets/images/sorry.webp";
+    } else if (score >= 70 && score < 90) {
+      stickerImg.src = "assets/images/pink-cool.webp";
     } else {
-      stickerImg.src = 'assets/images/fall-in-love.webp'
+      stickerImg.src = "assets/images/fall-in-love.webp";
     }
 
     headerH1.textContent = "Love Riot Calculator";
@@ -239,5 +241,6 @@ userAndCrushInputs.forEach((input) => {
     compatibilityScoreContainer.style.opacity = "0";
     heartImg.style.visibility = "visible";
     heartImg.style.display = "block";
+    resultsLink.style.display = 'none';
   });
 });

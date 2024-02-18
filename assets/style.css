@@ -381,6 +381,10 @@ float:left;
     align-items: center;
 }
 
+.email-form-section {
+    padding-bottom: 50px;
+}
+
 /* Error page */
 .email-form-container {
     display: flex;

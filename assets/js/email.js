@@ -15,7 +15,6 @@ document.getElementById('sendEmail').addEventListener('click', function() {
         user_name: userName,
         compatibilityPercentage: compatibilityPercentage,
     }).then(function(response) {
-        console.log('SUCCESS!', response.status, response.text);
         // Show Bootstrap alert
         const alertSuccess = document.getElementById('alertSuccess');
         alertSuccess.style.display = 'block';
@@ -24,9 +23,15 @@ document.getElementById('sendEmail').addEventListener('click', function() {
             alertSuccess.style.display = 'none';
         }, 2500);
     }, function(error) {
-        console.log('FAILED...', error);
         alert('Failed to send the email.');
     });
+});
+
+document.getElementById('email').addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        document.getElementById('sendEmail').click();
+    }
 });
 
 

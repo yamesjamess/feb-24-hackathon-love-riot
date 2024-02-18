@@ -146,7 +146,7 @@ To display different visuals associated with positive / negative scores, 'if/els
 
 - EmailJS account was setup and linked to a custom Gmail account loveriot1402@gmail.com
 - An HTML email template was created and uploaded into EmailJS.
-- Images used in the email template are hosted on AWS for public accessibility
+- Images used in the email template are hosted on [AWS](https://aws.amazon.com/) for public accessibility
 
 
 
@@ -202,6 +202,7 @@ The following set of [Flaticon](https://www.flaticon.com/) stickers were then fo
 - [Flaticon](https://www.flaticon.com) - used to generate love-themed stickers
 - [ChatGPT](https://chat.openai.com/) - used to help research javascript logic and for general coding queries
 - [Canva](http://canva.com) - used for creating graphics, banners etc
+- [Amazon Web Services](https://aws.amazon.com/) - for cloud hosting the email template images
 
 - [beautifytools](https://beautifytools.com/) - used for beautifying code
 - [JSHint](https://jshint.com/) - used to validate JS code

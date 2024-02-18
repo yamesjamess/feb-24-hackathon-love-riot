@@ -308,6 +308,10 @@ h1 {
     align-items: center;
 }
 
+.email-form-section {
+    padding-bottom: 50px;
+}
+
 /* Error page */
 
 .img404 {

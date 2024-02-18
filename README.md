@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Love Riot banner](/documentation/readme/love-riot-banner.png)
 
 
 # Love Riot 💘 by Cupid&Co
@@ -19,7 +19,7 @@ Compatibility scoring is displayed as a percentage match of the astrological sta
 
 The **Am I Responsive?** link can be found here - [Am I Responsive?](#)
 
-A **deployed link** to the live website can be found here [Love Riot](#)
+A **deployed link** to the live website can be found here at [Love Riot](https://yamesjamess.github.io/feb-24-hackathon-love-riot/#)
 
 ---
 
@@ -38,7 +38,7 @@ In the spirit of Valentine's day, our objective was to create a functioning love
 
 ### Target Audience
 
-The target audience of this game is anyone interested in learning about astrolgical star-sign compatibility in romantic relationships. It can also be played as a light hearted game for all ages, especially around Valentine's Day, where the results can be forwarded to friends (or a crush) by email.
+The target audience of this game is anyone interested in learning about astrological star-sign compatibility in romantic relationships. It can also be played as a light hearted game for all ages, especially around Valentine's Day, where the results can be forwarded to friends (or a crush) by email.
 
 ### User Requirements and Expectations
 
@@ -65,7 +65,7 @@ As a user I would like:
 
 ## Trade Offs
 
-Considering the user requirements and expectations, the table below shows the features that should be implemented to make an appealing and functional interactive Love Calculator for users. Due to time constraints and my current skill level, some of these features are not implemented at this stage.
+Considering the user requirements and expectations, the table below shows the features that should be implemented to make an appealing and functional interactive Love Calculator for users. Due to time constraints, some of these features are not implemented at this stage.
 
 [X] indicates opportunities that were considered at the planning stage but were deemed not viable/feasible for this project sprint.
 Y / N indicates a Yes / No as to whether each opportunity was acheived and implemented at this stage.
@@ -81,7 +81,9 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 | Info modal to give users guidance on selecting the correct star-sign         |     5      |            5            |    Y    |
 | Reset option that clears the calculator form                                 |     5      |            5            |    Y    |
 | Option to send results by email to a friend (via an email form)              |     4      |            5            |    Y    |
+| Pricing page for users to access extra brand services                        |     3      |            2            |    N    |
 | Results page with in-depth descriptions of zodiac pair compatibility [X]     |     3      |            2            |    X    |
+
 
 
 ### Features
@@ -142,6 +144,9 @@ To display different visuals associated with positive / negative scores, 'if/els
 
 ## Sending Results by Email
 
+- EmailJS account was setup and linked to a custom Gmail account loveriot1402@gmail.com
+- An HTML email template was created and uploaded into EmailJS.
+- Images used in the email template are hosted on [AWS](https://aws.amazon.com/) for public accessibility
 
 
 
@@ -196,16 +201,56 @@ The following set of [Flaticon](https://www.flaticon.com/) stickers were then fo
 - [The Noun Project](https://thenounproject.com) - used for generating the logo icon
 - [Flaticon](https://www.flaticon.com) - used to generate love-themed stickers
 - [ChatGPT](https://chat.openai.com/) - used to help research javascript logic and for general coding queries
+- [Canva](http://canva.com) - used for creating graphics, banners etc
+- [Amazon Web Services](https://aws.amazon.com/) - for cloud hosting the email template images
 
 - [beautifytools](https://beautifytools.com/) - used for beautifying code
 - [JSHint](https://jshint.com/) - used to validate JS code
 - [Esprima](https://esprima.org/demo/validate.html) - used to validate JS syntax
 - [W3 HTML validator](https://validator.w3.org/nu/) - used to validate HTML
 - [W3 Jigsaw](https://jigsaw.w3.org/css-validator/validator) - used to validate CSS
-- [AmIResponsive?](https://ui.dev/amiresponsive?url=https://tarahwaters.github.io/milestone-project2/) - used to create a mockup of the website
+- [AmIResponsive?](#) - used to create a mockup of the website
 
 
 You can access our project on GitHub [here](https://yamesjamess.github.io/feb-24-hackathon-love-riot/#)
+
+## Testing:
+
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
+## Deployment:
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+- In the [GitHub repository](https://github.com/yamesjamess/feb-24-hackathon-love-riot), navigate to the Settings tab.
+- In the general settings side menu, open **Pages**.
+- From the source section drop-down menu, select **Deploy from a branch** and then **Main** Branch, and click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment and link to visit the site.
+
+The live link can be found [here](https://yamesjamess.github.io/feb-24-hackathon-love-riot)
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/yamesjamess/feb-24-hackathon-love-riot) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://github.com/yamesjamess/feb-24-hackathon-love-riot.git`
+7. Press Enter to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/yamesjamess/feb-24-hackathon-love-riot)
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
+A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
 
 ## Known Issues
 

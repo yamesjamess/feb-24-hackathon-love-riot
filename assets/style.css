@@ -14,7 +14,7 @@ body {
     font-weight: 400;
     margin-left: auto;
     margin-right: auto;
-    height: 100vh;
+    height: 115vh;
     font-size: 1.2rem;
 }
 
@@ -36,7 +36,7 @@ li {
 }
 
 .second-half-color {
-    height: 100vh;
+    height: 125.6vh;
     width: 100%;
     background-color: #FB6F92;
     position: absolute;
@@ -91,11 +91,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 85vh;
+    flex-direction: column;
+    height: 115vh;
     width: 100%;
 }
 
 .main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     height: 540px;
     background-color: white;
     width: 600px;
@@ -176,6 +180,7 @@ h1 {
 }
 
 .user-input {
+    width: 100%;
    gap: 0.8rem;
    display: flex;
    align-items: center;
@@ -225,12 +230,14 @@ h1 {
 }
 
 .user-input-container label, .crush-input-container label {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .user-input-container input, .crush-input-container input {
+    width: 100%;
     text-align: center;
     border: 1px solid rgb(103, 103, 103);
     border-radius: 4px;
@@ -319,5 +326,36 @@ h1 {
     /* Header  */
     .collapse {
         justify-content: flex-start;
+    }
+
+    /* Main  */
+    .main-container {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    /* Main  */
+    .main-container {
+        width: 340px;
+    }
+    .user-input-container label, .crush-input-container label {
+        width: 135px;
+        font-size: 1rem;
+    }
+    .user-input-container input, .crush-input-container input {
+        font-size: 1rem;
+    }
+    .email-form-container {
+        display: flex;
+        align-items: center;
+    }
+    .email-section-img{
+        width: 130px;
+        height: 130px;
+        object-fit: contain;
+    }
+    .email-user-input h3 {
+        font-size: 1.15rem;
     }
 }

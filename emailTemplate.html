@@ -5,9 +5,10 @@
 <head>
     <title>Love Calculator Result</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
         body {
-            background-color: #FFB3C6; /* Light pink background */
-            font-family: Arial, sans-serif;
+            background-color: #FFB3C6;
+            font-family: Georgia, 'Times New Roman', Times, serif;
             padding: 20px;
             color: #333;
         }
@@ -22,7 +23,10 @@
         .header {
             font-size: 24px;
             text-align: center;
-            color: black; /* Adjust the color to fit the pink theme */
+            color: black;
+            font-family: 'Dosis', sans-serif;
+            font-weight: 700;
+
         }
         .content {
             margin-top: 20px;
@@ -32,22 +36,27 @@
             margin-top: 20px;
             text-align: center;
             font-size: 12px;
+            font-family: 'Dosis', sans-serif;
+            font-weight: 600;
+        }
+        span {
+            color: rgb(206, 54, 80);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="header">The Love Calculator</div>
+        <div class="header">The Love Calculator<span>.</span></div>
         <div class="content">
             <!-- Red heart image, hosted on AWS S3 account; URL is publicly accessible -->
-            <img src="https://russ-demo-s3-bucket.s3.eu-west-2.amazonaws.com/heart.jpg" alt="Red Heart" style="width: 100px; height: auto;">
+            <img src="https://russ-demo-s3-bucket.s3.eu-west-2.amazonaws.com/fall-in-love.jpg" alt="Red Heart" style="width: 100px; height: auto;">
             <p>Hey <strong>{{crush_name}}</strong>!</p>
 <p>You have just been matched by your crush <strong>{{user_name}}</strong>!</p>
 <p>Your love score is: <strong>{{compatibilityPercentage}}</strong></p>
             <!-- You can add more personalized content here -->
         </div>
         <div class="footer">
-            Sent with ♥ from the Love Calculator
+            Sent with ♥ from Cupid and Co.
         </div>
     </div>
 </body>

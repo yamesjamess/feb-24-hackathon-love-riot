@@ -99,7 +99,8 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
     -
 
-    ![screenshot of love calculator game grid](/documentation/readme/features/feature-love-riot-calculator-grid.jpg) 
+    ![screenshot of love calculator game grid](/documentation/readme/features/feature-love-riot-calculator-grid.jpg)
+    ![screenshot of reset and info buttons](/documentation/readme/features/feature-info-reset-buttons.jpg) 
 
 
 - **Star-sign Select Tool**

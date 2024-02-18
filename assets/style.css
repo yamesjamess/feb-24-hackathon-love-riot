@@ -141,8 +141,13 @@ h1 {
 .display-compatibility-container {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#results-link {
+    display: none;
 }
 
 .compatibility-sticker-container {
@@ -421,3 +426,20 @@ h1 {
 .pushable:focus:not(:focus-visible) {
     outline: none;
 }
+
+/* Results Page */
+
+.card-footer{
+    text-align: center;
+}
+
+.view-btn{
+    background-color: #FB6F92;
+    color: white;
+}
+
+ .results-main {
+    height: 50%;
+    width: 50%;
+    outline: 2px solid red;
+ }

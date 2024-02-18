@@ -19,7 +19,7 @@ Compatibility scoring is displayed as a percentage match of the astrological sta
 
 The **Am I Responsive?** link can be found here - [Am I Responsive?](#)
 
-A **deployed link** to the live website can be found here [Love Riot](#)
+A **deployed link** to the live website can be found here at [Love Riot](https://yamesjamess.github.io/feb-24-hackathon-love-riot/#)
 
 ---
 

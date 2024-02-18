@@ -140,6 +140,11 @@ The data for zodiac pairs was transcribed into a JS object (compatibilityData) w
 
 To display different visuals associated with positive / negative scores, 'if/else' statements were run in the JS script depending on % brackets.
 
+## Sending Results by Email
+
+
+
+
 ## Brand Identity
 
 

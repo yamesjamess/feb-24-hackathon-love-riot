@@ -120,6 +120,8 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
     -
 
     ![screenshot email results option](/documentation/readme/features/feature-send-results-email.jpg)
+    ![screenshot email results option](/documentation/readme/features/feature-email-template.jpg)
+
 
 - **Results Page (zodiac compatibility details)**
 

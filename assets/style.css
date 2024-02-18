@@ -344,7 +344,7 @@ h1 {
 /* ------- Index HTML ---------- */
 /* About */
 .about-main-container {
-    height: 840px;
+    height: 900px;
     background-color: white;
     width: 750px;
     padding: 30px;
@@ -494,3 +494,7 @@ h1 {
     width: 60%;
  }
 
+.black-border {
+    outline: 1px solid black;
+    height: 100%;
+}

@@ -1,6 +1,28 @@
-Love Riot
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
+
+# Love Riot 💘 by Cupid&Co
 
 ## Intro
+
+In the name of all things ***RoMaNcE*** this Valentine's February, The **Love Riot** web app showcases the **Love Compatibility Calculator**.
+
+Based on zodiac star sign compatibility, users can calculate a potential compatibility score with their partner or crush and send the results on by email.
+
+Compatibility scoring is displayed as a percentage match of the astrological star-signs of each person - adapted from [numerologysign.com](https://numerologysign.com/zodiac-signs-compatibility/)!
+
+------
+
+
+## Showcase
+
+![Am I Responsive?](documentation/readme/am-i-responsive.webp "Am I Responsive? Website Mockup")
+
+The **Am I Responsive?** link can be found here - [Am I Responsive?](#)
+
+A **deployed link** to the live website can be found here [Love Riot](#)
+
+---
 
 
 # Site Goals

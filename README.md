@@ -56,6 +56,7 @@ The target audience of this game is anyone interested in learning about astrolog
 As a user I would like:
 - to understand what the app is about and how to use it.
 - to calculate a love compatibility score using the interactive calculator on screen.
+- to have access to more details of zodiac compatibility to complement the calculator results.
 - for the animation and scoring to appear smoothly and accurately.
 - to have some help with choosing the correct star sign for myself or my crush.
 - to navigate through the elements of the game / website easily
@@ -81,8 +82,8 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 | Info modal to give users guidance on selecting the correct star-sign         |     5      |            5            |    Y    |
 | Reset option that clears the calculator form                                 |     5      |            5            |    Y    |
 | Option to send results by email to a friend (via an email form)              |     4      |            5            |    Y    |
-| Pricing page for users to access extra brand services                        |     3      |            2            |    N    |
-| Results page with in-depth descriptions of zodiac pair compatibility [X]     |     3      |            2            |    X    |
+| Results page with descriptions of zodiac pair compatibility                  |     4      |            4            |    Y    |
+| Pricing page for users to access extra brand services [X]                    |     3      |            2            |    X    |
 
 
 
@@ -110,7 +111,7 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
 ### Future Features
 
-- Adding a horoscope API for generating detailed compatility / prediction reports along with the compatibility score.
+- Adding a horoscope API for generating detailed compatibility / prediction reports along with the results.
 - Adding a pricing page for user to subscribe to our services such as reiki healing, cosmic realignment etc.
 
 ## Wireframes
@@ -145,7 +146,7 @@ To display different visuals associated with positive / negative scores, 'if/els
 ## Sending Results by Email
 
 - EmailJS account was setup and linked to a custom Gmail account loveriot1402@gmail.com
-- An HTML email template was created and uploaded into EmailJS.
+- An HTML email template was created and uploaded into [EmailJS](https://www.emailjs.com).
 - Images used in the email template are hosted on [AWS](https://aws.amazon.com/) for public accessibility
 
 
@@ -203,6 +204,7 @@ The following set of [Flaticon](https://www.flaticon.com/) stickers were then fo
 - [ChatGPT](https://chat.openai.com/) - used to help research javascript logic and for general coding queries
 - [Canva](http://canva.com) - used for creating graphics, banners etc
 - [Amazon Web Services](https://aws.amazon.com/) - for cloud hosting the email template images
+- [EmailJS](https://www.emailjs.com) - email sending framework used to email results from the page
 
 - [beautifytools](https://beautifytools.com/) - used for beautifying code
 - [JSHint](https://jshint.com/) - used to validate JS code
@@ -257,6 +259,8 @@ A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/conf
 ## Credits
 The following media resources were used:
 - [Logo (Cupid icon) generated from The Noun Project](https://thenounproject.com/icon/cupid-5981148/)
+- [HTML-shark](https://html-shark.com/HTML/Zodiac.htm) - used for zodiac symbols / emojis
+- [zodiacsign](https://www.zodiacsign.com/compatibility) - used for compatibility content
 - [Flaticon stickers](https://www.flaticon.com/free-stickers/love) created by [MrHamster](https://www.flaticon.com/authors/mrhamster?type=sticker)
 - [numerologysign.com](https://numerologysign.com/wp-content/uploads/2020/09/Zodiac-Signs-List-with-Dates-Symbols-1920x1681.png) star-sign inforgraphic:
     ![star-sign infographic](/documentation/readme/numerology-star-sign-info.png)

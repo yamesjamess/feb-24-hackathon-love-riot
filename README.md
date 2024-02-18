@@ -6,7 +6,6 @@
 ## Intro
 
 In the name of all things ***RoMaNcE*** this Valentine's February, The **Love Riot** web app showcases the **Love Compatibility Calculator**.
-
 Based on zodiac star sign compatibility, users can calculate a potential compatibility score with their partner or crush and send the results on by email.
 
 Compatibility scoring is displayed as a percentage match of the astrological star-signs of each person - adapted from [numerologysign.com](https://numerologysign.com/zodiac-signs-compatibility/)!

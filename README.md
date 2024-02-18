@@ -124,8 +124,21 @@ The layout and design was kept consistent across the pages / devices as much as 
 **Note** - The square boxes with X inside was used to illustrate a decorative / animated image. And in the early planning stages we had not yet decided between using 'birthdate' or 'star-sign' user input.
 
 
+## Compatibility Scoring
 
+The JS logic used to calculate the percentage compatibility scores were based on the Zodiac Signs Compatibility page by [numerologysign.com] (https://numerologysign.com/zodiac-signs-compatibility/).
 
+We initially decided on calculating our own scores based on a compatibility grid such as this one from [astrology-zodiac-signs](https://www.astrology-zodiac-signs.com/images/zodiac-signs-compatibility-chart.png):
+
+![planning stage compatibility grid](/documentation/readme/zodiac-compatibility-chart1.png)
+
+However, we decided it was easier to calculate scores based on numerical data from a similar grid found at [numerologysigns.com](https://numerologysign.com/zodiac-signs-compatibility/):
+
+![compatibility data grid used for final calculations](/documentation/readme/zodiac-compatibility-chart2.png)
+
+The data for zodiac pairs was transcribed into a JS object (compatibilityData) which was then used in the calculation functionality of javascript.
+
+To display different visuals associated with positive / negative scores, 'if/else' statements were run in the JS script depending on % brackets.
 
 ## Brand Identity
 

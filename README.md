@@ -113,7 +113,7 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
     -
 
-    ![screenshot of zodiac modal](/documentation/readme/features/feature-zodiac-modal.jpg)
+    ![screenshot of zodiac modal](/documentation/readme/features/feature-infographic.jpg)
 
 - **Send Results by Email**
 

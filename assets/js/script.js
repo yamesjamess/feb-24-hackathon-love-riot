@@ -184,8 +184,8 @@ compatibilityScoreForm.addEventListener("submit", (e) => {
   const score = compatibilityData[key];
 
   // Reset the initialScore before calculating the new compatibility score
-  let initialScore = score - 30;
-  console.log(score)
+  let initialScore = 0;
+
 
   // Display the compatibility score
   heartImg.style.visibility = "collapse";

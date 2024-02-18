@@ -179,11 +179,30 @@ The following set of [Flaticon](https://www.flaticon.com/) stickers were then fo
 ![screenshot of love-themed stickers](/documentation/readme/flaticon-app-images.png)
 
 
-## Tech
+## Tools and Technologies
+
 1. HTML,
 2. CSS,
 3. Javascript,
 4. Bootstrap,
+
+- [GitHub and Github Pages](https://github.com/) - used to securely store the code and to host and deploy the live project
+- [GitPod](https://www.gitpod.io/) - used as a cloud-based IDE for development
+- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - used for testing and troublshooting code, along with Lighthouse auditing
+- [Balsamiq](https://balsamiq.com/wireframes/) - used to create wireframes during project planning
+- [Cloud Convert](https://cloudconvert.com/) - used for resizing and converting image files to webp format
+- [Coolors](https://coolors.co/) - used to generate a color palette for the website design
+- [Google Fonts](https://fonts.google.com/specimen/Dosis) - used to generate a visually appealing font
+- [The Noun Project](https://thenounproject.com) - used for generating the logo icon
+- [Flaticon](https://www.flaticon.com) - used to generate love-themed stickers
+- [ChatGPT](https://chat.openai.com/) - used to help research javascript logic and for general coding queries
+
+- [beautifytools](https://beautifytools.com/) - used for beautifying code
+- [JSHint](https://jshint.com/) - used to validate JS code
+- [Esprima](https://esprima.org/demo/validate.html) - used to validate JS syntax
+- [W3 HTML validator](https://validator.w3.org/nu/) - used to validate HTML
+- [W3 Jigsaw](https://jigsaw.w3.org/css-validator/validator) - used to validate CSS
+- [AmIResponsive?](https://ui.dev/amiresponsive?url=https://tarahwaters.github.io/milestone-project2/) - used to create a mockup of the website
 
 
 You can access our project on GitHub [here](https://yamesjamess.github.io/feb-24-hackathon-love-riot/#)
@@ -191,8 +210,11 @@ You can access our project on GitHub [here](https://yamesjamess.github.io/feb-24
 ## Known Issues
 
 ## Credits
-The following resources were used:
-1.
+The following media resources were used:
+- [Logo (Cupid icon) generated from The Noun Project](https://thenounproject.com/icon/cupid-5981148/)
+- [Flaticon stickers](https://www.flaticon.com/free-stickers/love) created by [MrHamster](https://www.flaticon.com/authors/mrhamster?type=sticker)
+- [numerologysign.com](https://numerologysign.com/wp-content/uploads/2020/09/Zodiac-Signs-List-with-Dates-Symbols-1920x1681.png) star-sign inforgraphic:
+    ![star-sign infographic](/documentation/readme/numerology-star-sign-info.png)
 
 The Cupid & Co Team:
 - [Ilyas Olgun](https://github.com/ilyasolgun11)

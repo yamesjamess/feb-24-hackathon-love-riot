@@ -31,6 +31,13 @@ A **deployed link** to the live website can be found here at [Love Riot](https:/
 
 When it comes to the complexities of love and relationships, many people 'look to the stars' in order to analyse the potential of a budding romance between two people. We decided to build our Valentine's themed application as a Love Compatibility Calculator which is both fun to use and shares some insights into the compatibility of the astrological star-signs.
 
+Our opening statement on the landing page for users:
+
+***"Feeling lost in the maze of love? Wondering if you're on the right
+path to happiness? Unveil the secrets of your relationships with
+our Love Compatibility Calculator! Say goodbye to uncertainty and
+hello to lasting connections."***
+
 
 ## Objectives
 
@@ -91,44 +98,55 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
 - **Landing Page**
 
-    -
+    - Landing page explains to the user what the site is about and invites them to play the calculator game via the 'play' button. Clicking the 'play' button opens the game grid.
 
     ![screenshot of landing page](/documentation/readme/features/feature-landing-page.jpg)
 
 - **Love Calculator Game Grid**
 
-    -
+    - The Game Grid consists of an text input for 2 people's names, and select options for their 2 star signs. These inputs are required before clicking 'Calculate Love %' will start the calculation process to reveal the score.
 
     ![screenshot of love calculator game grid](/documentation/readme/features/feature-love-riot-calculator-grid.jpg)
+
+    - Info (i) and reset buttons are accessible from within the grid to allow users to find out more information about the star signs / reset the form.
+
     ![screenshot of reset and info buttons](/documentation/readme/features/feature-info-reset-buttons.jpg) 
 
 
-- **Star-sign Select Tool**
+- **Star sign Select Tool**
 
-    - 
+    - Star signs for compatibility pairing can be selected from the list (required input for the calculation).
 
-    ![screenshot of star-sign select option menu](/documentation/readme/features/feature-star-sign-select.jpg)
+    ![screenshot of star sign select option menu](/documentation/readme/features/feature-star-sign-select.jpg)
 
 
 - **Infographic modal (via the 'i' info button)**
 
-    -
+    - To help users who are not sure which star sign to choose for themselves or their crush's, the helpful inforgraphic displays all 12 signs and the dates which align with them. This opens as a modal which can be closed easily by clicking the X button or the website behind.
 
     ![screenshot of zodiac infographic](/documentation/readme/features/feature-infographic.jpg)
 
 - **Send Results by Email**
 
-    -
+    - Calculator results can be sent on by email using the feature below the game grid. Users who input a valid email address into the text box and click 'Send' will be given a confirmation message that the email has been sent successfully.
 
     ![screenshot email results option](/documentation/readme/features/feature-send-results-email.jpg)
+
+    - Below is an example of the email that is received which includes the details of the couple's match and their compatibility score.
+
     ![screenshot of email template after sending results](/documentation/readme/features/feature-email-template.jpg)
 
 
 - **Results Page (zodiac compatibility details)**
 
-    -
+    - Access to the Results page is either by a link after the calculator has been run, or via the 'Full Results' link in the navbar.
+    - 'Full Results' consists of 12 interactive cards containing more information about the compatibility matches for each zodiac star sign. 
+    - Star sign information and images were gained from various sources online (see Credits for references).
 
     ![screenshot of results page with zodiac details](/documentation/readme/features/feature-results-page.jpg)
+
+    - The user can click the 'View' button to reveal full details of the potential matches with other star signs (which opens the card as a Modal, closeable by clicking X or the close button etc). This is a great feature for users to learn more about the astrological star signs and how they might link to romantic relationships.
+
     ![screenshot of zodiac results modal](/documentation/readme/features/feature-zodiac-modal.jpg)
 
 
@@ -195,9 +213,6 @@ Logo with brand name (against pink website background):
 ![screenshot of logo with brand name](/documentation/readme/logo-brand-name.jpg)
 
 
-**Byline:**
-
-
 **Colour palette:**
 
 The following colour palette was created using [Coloors](https://coolors.co/) based on the theme of 'love' :
@@ -232,7 +247,6 @@ The following set of [Flaticon](https://www.flaticon.com/) stickers were then fo
 
 - [beautifytools](https://beautifytools.com/) - used for beautifying code
 - [JSHint](https://jshint.com/) - used to validate JS code
-- [Esprima](https://esprima.org/demo/validate.html) - used to validate JS syntax
 - [W3 HTML validator](https://validator.w3.org/nu/) - used to validate HTML
 - [W3 Jigsaw](https://jigsaw.w3.org/css-validator/validator) - used to validate CSS
 - [AmIResponsive?](https://ui.dev/amiresponsive) - used to create a mockup of the website
@@ -283,8 +297,9 @@ A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/conf
 ## Credits
 The following media resources were used:
 - [Logo (Cupid icon) generated from The Noun Project](https://thenounproject.com/icon/cupid-5981148/)
+- [CSS Scan](https://getcssscan.com/css-buttons-examples) - CSS button by 'Duolingo'
 - [HTML-shark](https://html-shark.com/HTML/Zodiac.htm) - used for zodiac symbols / emojis
-- [zodiacsign](https://www.zodiacsign.com/compatibility) - used for compatibility content
+- [zodiacsign](https://www.zodiacsign.com/compatibility) - used for compatibility content on the Results Page
 - [Flaticon stickers](https://www.flaticon.com/free-stickers/love) created by [MrHamster](https://www.flaticon.com/authors/mrhamster?type=sticker)
 - [numerologysign.com](https://numerologysign.com/wp-content/uploads/2020/09/Zodiac-Signs-List-with-Dates-Symbols-1920x1681.png) star-sign inforgraphic:
     ![star-sign infographic](/documentation/readme/numerology-star-sign-info.png)

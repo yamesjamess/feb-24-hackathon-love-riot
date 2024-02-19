@@ -139,9 +139,14 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
 - **Results Page (zodiac compatibility details)**
 
-    -
+    - Access to the Results page is either by a link after the calculator has been run, or via the 'Full Results' link in the navbar.
+    - 'Full Results' consists of 12 interactive cards containing more information about the compatibility matches for each zodiac star sign. 
+    - Star sign information and images were gained from various sources online (see Credits for references).
 
     ![screenshot of results page with zodiac details](/documentation/readme/features/feature-results-page.jpg)
+
+    - The user can click the 'View' button to reveal full details of the potential matches with other star signs (which opens the card as a Modal, closeable by clicking X or the close button etc). This is a great feature for users to learn more about the astrological star signs and how they might link to romantic relationships.
+
     ![screenshot of zodiac results modal](/documentation/readme/features/feature-zodiac-modal.jpg)
 
 

@@ -195,9 +195,6 @@ Logo with brand name (against pink website background):
 ![screenshot of logo with brand name](/documentation/readme/logo-brand-name.jpg)
 
 
-**Byline:**
-
-
 **Colour palette:**
 
 The following colour palette was created using [Coloors](https://coolors.co/) based on the theme of 'love' :
@@ -283,6 +280,7 @@ A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/conf
 ## Credits
 The following media resources were used:
 - [Logo (Cupid icon) generated from The Noun Project](https://thenounproject.com/icon/cupid-5981148/)
+- [CSS Scan](https://getcssscan.com/css-buttons-examples) - CSS button by 'Duolingo'
 - [HTML-shark](https://html-shark.com/HTML/Zodiac.htm) - used for zodiac symbols / emojis
 - [zodiacsign](https://www.zodiacsign.com/compatibility) - used for compatibility content
 - [Flaticon stickers](https://www.flaticon.com/free-stickers/love) created by [MrHamster](https://www.flaticon.com/authors/mrhamster?type=sticker)

@@ -82,4 +82,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 - Add to the testing file - heart/letter sticker missing on mobile devices.
 
+- Custom pink background for email template does not appear for Gmail users, but on others (e.g. Outlook) it works fine. There may be differences in appearance for different email browsers which could be addressed in future fixes.
+
 There are no remaining bugs that we are aware of.

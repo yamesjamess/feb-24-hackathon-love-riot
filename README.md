@@ -98,7 +98,7 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
 - **Landing Page**
 
-    -
+    - Landing page explains to the user what the site is about and invites them to play the calculator game via the 'play' button. Clicking the 'play' button opens the game grid.
 
     ![screenshot of landing page](/documentation/readme/features/feature-landing-page.jpg)
 

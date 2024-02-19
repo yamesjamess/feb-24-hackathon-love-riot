@@ -247,7 +247,6 @@ The following set of [Flaticon](https://www.flaticon.com/) stickers were then fo
 
 - [beautifytools](https://beautifytools.com/) - used for beautifying code
 - [JSHint](https://jshint.com/) - used to validate JS code
-- [Esprima](https://esprima.org/demo/validate.html) - used to validate JS syntax
 - [W3 HTML validator](https://validator.w3.org/nu/) - used to validate HTML
 - [W3 Jigsaw](https://jigsaw.w3.org/css-validator/validator) - used to validate CSS
 - [AmIResponsive?](https://ui.dev/amiresponsive) - used to create a mockup of the website

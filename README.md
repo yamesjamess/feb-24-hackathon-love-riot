@@ -128,9 +128,12 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
 - **Send Results by Email**
 
-    -
+    - Calculator results can be sent on by email using the feature below the game grid. Users who input a valid email address into the text box and click 'Send' will be given a confirmation message that the email has been sent successfully.
 
     ![screenshot email results option](/documentation/readme/features/feature-send-results-email.jpg)
+
+    - Below is an example of the email that is received which includes the details of the couple's match and their compatibility score.
+
     ![screenshot of email template after sending results](/documentation/readme/features/feature-email-template.jpg)
 
 

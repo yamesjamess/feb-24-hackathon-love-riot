@@ -13,6 +13,7 @@ const loadingSpinner = document.querySelector(".loading-spinner");
 const stickerImg = document.getElementById("sticker");
 const resultsLink = document.getElementById("results-link");
 const playButton = document.getElementById("playButton");
+const email = document.getElementById('email');
 const compatibilityData = {
   "Aries-Aries": 50,
   "Aries-Taurus": 38,
@@ -112,7 +113,7 @@ const compatibilityData = {
   "Scorpio-Leo": 58,
   "Scorpio-Virgo": 88,
   "Scorpio-Libra": 35,
-  "Scorpio-Scorpio": 80,
+  "Scorpio-Scorpio": 81,
   "Scorpio-Sagittarius": 28,
   "Scorpio-Capricorn": 95,
   "Scorpio-Aquarius": 73,
@@ -239,6 +240,8 @@ const handleReset = () => {
   heartImg.style.visibility = "visible";
   heartImg.style.display = "block";
   resultsLink.style.display = "none";
+  compatibilityPercentage.textContent = "0%"
+  email.value = ""
 };
 
 // function to handle the play button on index.html
@@ -248,7 +251,7 @@ const handlePlay = () => {
 
 if (playButton) {
   playButton.addEventListener("click", handlePlay);
-} else if (compatibilityScoreForm && resetForm) {
+} else if (compatibilityScoreForm && resetForm && email) {
   compatibilityScoreForm.addEventListener("submit", handleSubmit);
   resetForm.addEventListener("click", handleReset);
 };

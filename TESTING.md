@@ -38,10 +38,10 @@ The site has succesfully passsed through mupltile verfication testing. Including
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Home | Game | About | Results| Notes |
-| --- | --- | --- | --- | --- | --- |
-| Mobile | ![screenshot](/documentation/validators/lighthouse/index_mobile.png) | ![screenshot](/documentation/validators/lighthouse/game_mobile.png) | ![screenshot](/documentation/validators/lighthouse/about_mobile.png)| ![screenshot](/documentation/validators/lighthouse/results_mobile.png) | Works as expected |
-| Desktop| ![screenshot](/documentation/validators/lighthouse/index_desktop.png) | ![screenshot](/documentation/validators/lighthouse/game_desktop.png) | ![screenshot](/documentation/validators/lighthouse/about_desktop.png) | ![screenshot](/documentation/validators/lighthouse/results_desktop.png) | Works as expected |
+| Device | 
+| --- | 
+| Mobile | ![screenshot](/documentation/testing/responsiveness-iphoneSEjpg.jpg) | ![screenshot](/documentation/testing/responsiveness-iphone12-pro.jpg) | Works as expected |
+| Desktop| ![screenshot](/documentation/testing/responsiveness-17inch-laptop.jpg) | ![screenshot](/documentation/testing/responsiveness-20inch-desktop.jpg) | Works as expected |
 
 
 ## Lighthouse Audit

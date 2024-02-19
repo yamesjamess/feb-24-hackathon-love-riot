@@ -300,7 +300,7 @@ The following media resources were used:
 - [Logo (Cupid icon) generated from The Noun Project](https://thenounproject.com/icon/cupid-5981148/)
 - [CSS Scan](https://getcssscan.com/css-buttons-examples) - CSS button by 'Duolingo'
 - [HTML-shark](https://html-shark.com/HTML/Zodiac.htm) - used for zodiac symbols / emojis
-- [zodiacsign](https://www.zodiacsign.com/compatibility) - used for compatibility content
+- [zodiacsign](https://www.zodiacsign.com/compatibility) - used for compatibility content on the Results Page
 - [Flaticon stickers](https://www.flaticon.com/free-stickers/love) created by [MrHamster](https://www.flaticon.com/authors/mrhamster?type=sticker)
 - [numerologysign.com](https://numerologysign.com/wp-content/uploads/2020/09/Zodiac-Signs-List-with-Dates-Symbols-1920x1681.png) star-sign inforgraphic:
     ![star-sign infographic](/documentation/readme/numerology-star-sign-info.png)

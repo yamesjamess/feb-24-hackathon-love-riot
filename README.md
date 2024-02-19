@@ -152,7 +152,7 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 - **About Us Page**
 
     - Page describing the contributors of the Love Riot app with a scrolling tool for easy access to their details.
-    
+
      ![screenshot of about us page](/documentation/readme/features/feature-about-us.jpg)
 
 
@@ -250,7 +250,7 @@ The following set of [Flaticon](https://www.flaticon.com/) stickers were then fo
 - [Canva](http://canva.com) - used for creating graphics, banners etc
 - [Amazon Web Services](https://aws.amazon.com/) - for cloud hosting the email template images
 - [EmailJS](https://www.emailjs.com) - email sending framework used to email results from the page
-
+- [Favicon](https://favicon.io/) - for converting the logo into a favicon.ico file
 - [beautifytools](https://beautifytools.com/) - used for beautifying code
 - [JSHint](https://jshint.com/) - used to validate JS code
 - [W3 HTML validator](https://validator.w3.org/nu/) - used to validate HTML

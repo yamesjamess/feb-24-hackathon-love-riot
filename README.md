@@ -113,11 +113,11 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
     ![screenshot of reset and info buttons](/documentation/readme/features/feature-info-reset-buttons.jpg) 
 
 
-- **Star-sign Select Tool**
+- **Star sign Select Tool**
 
-    - 
+    - Star signs for compatibility pairing can be selected from the list (required input for the calculation).
 
-    ![screenshot of star-sign select option menu](/documentation/readme/features/feature-star-sign-select.jpg)
+    ![screenshot of star sign select option menu](/documentation/readme/features/feature-star-sign-select.jpg)
 
 
 - **Infographic modal (via the 'i' info button)**

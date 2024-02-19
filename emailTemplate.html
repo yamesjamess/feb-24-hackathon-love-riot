@@ -1,62 +1,71 @@
 <!-- Make chnages to this template and then copy into Love Riot's EmailJS account-->
 
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Love Calculator Result</title>
+<html lang="en">
+  <head>
+    <title>Love Riot Calculator Result</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
-        body {
-            background-color: #FFB3C6; 
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            padding: 20px;
-            color: #333;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .header {
-            font-size: 24px;
-            text-align: center;
-            color: black;
-            font-family: 'Dosis', sans-serif;
-            font-weight: 700;
-        }
-        .content {
-            margin-top: 20px;
-            text-align: center;
-        }
-        .footer {
-            margin-top: 20px;
-            text-align: center;
-            font-size: 12px;
-            font-family: 'Dosis', sans-serif;
-            font-weight: 600;
-        }
-        span {
-            color: rgb(206, 54, 80);
-        }
+      @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+      body {
+        background-color: #ffb3c6;
+        font-family: "Dosis", "Times New Roman", Times, serif;
+        padding: 20px;
+        color: #333;
+        font-weight: 500;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .header {
+        font-size: 24px;
+        text-align: center;
+        color: black;
+        font-family: "Dosis", sans-serif;
+        font-weight: 700;
+      }
+      .content {
+        margin-top: 20px;
+        text-align: center;
+      }
+      .footer {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 12px;
+        font-family: "Dosis", sans-serif;
+        font-weight: 600;
+      }
+      span {
+        color: rgb(206, 54, 80);
+      }
+
+      .small {
+        font-size: 0.5em;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="header">The Love Calculator<span>.</span></div>
-        <div class="content">
-            <!-- Red heart image, hosted on AWS S3 account; URL is publicly accessible -->
-            <img src="https://russ-demo-s3-bucket.s3.eu-west-2.amazonaws.com/fall-in-love.jpg" alt="Red Heart" style="width: 100px; height: auto;">
-            <p>Hey <strong>{{crush_name}}</strong>!</p>
-<p>You have just been matched by your crush <strong>{{user_name}}</strong>!</p>
-<p>Your love score is: <strong>{{compatibilityPercentage}}</strong></p>
-            <!-- You can add more personalized content here -->
-        </div>
-        <div class="footer">
-            Sent with ♥ from Cupid and Co.
-        </div>
+      <div class="header">The Love Riot Calculator<span class="small">♥</span></div>
+      <div class="content">
+        <!-- heart image, hosted on AWS S3 account; URL is publicly accessible -->
+        <img
+          src="https://russ-demo-s3-bucket.s3.eu-west-2.amazonaws.com/fall-in-love.jpg"
+          alt="Red Heart"
+          style="width: 100px; height: auto"
+        >
+        <p>Hey <strong>{{crush_name}}</strong>!</p>
+        <p>
+          You have just been matched by your crush
+          <strong>{{user_name}}</strong>!
+        </p>
+        <p>Your love score is: <strong>{{compatibilityPercentage}}</strong></p>
+      </div>
+      <div class="footer">Sent with <span>♥</span> from Cupid & Co.</div>
     </div>
-</body>
+  </body>
 </html>

@@ -31,6 +31,13 @@ A **deployed link** to the live website can be found here at [Love Riot](https:/
 
 When it comes to the complexities of love and relationships, many people 'look to the stars' in order to analyse the potential of a budding romance between two people. We decided to build our Valentine's themed application as a Love Compatibility Calculator which is both fun to use and shares some insights into the compatibility of the astrological star-signs.
 
+Our opening statement on the landing page for users:
+
+***"Feeling lost in the maze of love? Wondering if you're on the right
+path to happiness? Unveil the secrets of your relationships with
+our Love Compatibility Calculator! Say goodbye to uncertainty and
+hello to lasting connections."***
+
 
 ## Objectives
 

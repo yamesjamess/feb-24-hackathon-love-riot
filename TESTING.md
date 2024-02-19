@@ -13,12 +13,12 @@ The site has succesfully passsed through mupltile verfication testing. Including
 
 | Page | | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](/documentation/validators/htmls/index.html.png) | Pass.|
-| Game | ![screenshot](/documentation/validators/htmls/game.html.png) | Pass. |
-| About us | ![screenshot](/documentation/validators/htmls/about.html.png) | Pass.|
-| Reults | ![screenshot](/documentation/validators/htmls/results.html.png) | Pass. |
-| Email | ![screenshot](/documentation/validators/htmls/emailTemplate.html.png) | Pass.|
-| 404 Page |  ![screenshot](/documentation/validators/htmls/404.html.png) | Pass. |
+| Home | ![index.html](/documentation/validators/htmls/index.html.png) | Pass.|
+| Game | ![game.html](/documentation/validators/htmls/game.html.png) | Pass. |
+| About us | ![about.html](/documentation/validators/htmls/about.html.png) | Pass.|
+| Reults | ![results.html](/documentation/validators/htmls/results.html.png) | Pass. |
+| Email | ![emailTemplate.html](/documentation/validators/htmls/emailTemplate.html.png) | Pass.|
+| 404 Page |  ![404.html](/documentation/validators/htmls/404.html.png) | Pass. |
 
 
 ### CSS
@@ -27,21 +27,26 @@ The site has succesfully passsed through mupltile verfication testing. Including
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw]|![screenshot](/documentation/validators/css/styles.css.png) | Pass. |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator) |![styles.css](/documentation/validators/css/styles.css.png) | Pass. |
 
 ### Java Script
 
- Script | ![screenshot](/documentation/validators/js/script.js.png)
- Email | ![screenshot](/documentation/validators/js/email.js.png)
+ script.js 
+
+ ![script.js](/documentation/validators/js/script.js.png)
+ 
+ email.js
+ 
+ ![email.js](/documentation/validators/js/email.js.png)
 
 ## Responsiveness
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | 
-| --- | 
-| Mobile | ![screenshot](/documentation/testing/responsiveness-iphoneSEjpg.jpg) | ![screenshot](/documentation/testing/responsiveness-iphone12-pro.jpg) | Works as expected |
-| Desktop| ![screenshot](/documentation/testing/responsiveness-17inch-laptop.jpg) | ![screenshot](/documentation/testing/responsiveness-20inch-desktop.jpg) | Works as expected |
+|Mobile | Desktop | Results |
+| --- | --- | --- |
+| iPhone SE ![iPhone SE](/documentation/testing/responsiveness-iphoneSEjpg.jpg) | 17" Laptop ![17" Laptop](/documentation/testing/responsiveness-17inch-laptop.jpg)| Works as expected |
+| iPhone 12 Pro ![iPhone 12 Pro](/documentation/testing/responsiveness-iphone12-pro.jpg) | 20" Laptop ![20" Laptop](/documentation/testing/responsiveness-20inch-desktop.jpg) | Works as expected |
 
 
 ## Lighthouse Audit
@@ -50,10 +55,10 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](/documentation/validators/lighthouse/index_mobile.png) | ![screenshot](/documentation/validators/lighthouse/index_desktop.png) | Pass. |
-| Game | ![screenshot](/documentation/validators/lighthouse/about_mobile.png) | ![screenshot](/documentation/validators/lighthouse/game_desktop.png) | Pass.  |
-| About | ![screenshot](/documentation/validators/lighthouse/about_mobile.png) | ![screenshot](/documentation/validators/lighthouse/about_desktop.png) | Pass. |
-| Results | ![screenshot](/documentation/validators/lighthouse/results_mobile.png) | ![screenshot](/documentation/validators/lighthouse/results_desktop.png) | Pass. |
+| Home | ![index mobile](/documentation/validators/lighthouse/index_mobile.png) | ![index desktop](/documentation/validators/lighthouse/index_desktop.png) | Pass. |
+| Game | ![game mobile](/documentation/validators/lighthouse/game_mobile.png) | ![game desktop](/documentation/validators/lighthouse/game_desktop.png) | Pass.  |
+| About | ![about mobile](/documentation/validators/lighthouse/about_mobile.png) | ![about desktop](/documentation/validators/lighthouse/about_desktop.png) | Pass. |
+| Results | ![results mobile](/documentation/validators/lighthouse/results_mobile.png) | ![results desktop](/documentation/validators/lighthouse/results_desktop.png) | Pass. |
 
 
 ## User Story Testing
@@ -61,25 +66,21 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to enter the game with a play button. | ![screenshot](/documentation/validators/user-story/home-page-story.png) |
-| As a new site user, I would like to easily play and understand the game. | ![screenshot](/documentation/validators/user-story/game-story.png) |
-| As a new site user, I would like to restart the game as I please.| ![screenshot](/documentation/validators/user-story/restart-story.png) |
-| As a new site user, I would like to have help with choosing my correct star sign.| ![screenshot](/documentation/validators/user-story/sign-help-story.png) |
-| As a new site user, I would like to send the results to my crush by email.| ![screenshot](/documentation/validators/user-story/send-email-story.png) |
-| As a new site user, I would like my crush to view the results.| ![screenshot](/documentation/readme/features/feature-email-template.jpg) |
-
-
-| As a returning site user, I would like to learn about "Cupid and Co".| ![screenshot](/documentation/validators/lighthouse/about_mobile.png) |
-| As a returning site user, I would like to learn more about about star sign compatibility.| ![screenshot](/documentation/validators/user-story/results-story.png) |
-
-| As a site administrator, I should have easy read HTML code so that other developers can work with / add to the code. | ![screenshot](/documentation/validators/htmls/index.html.png) |
-|  As a site administrator, I should have easy read CSS code so that other developers can work with / add to the code. | ![screenshot](/documentation/validators/css/styles.css.png) |
-|  As a site administrator, I should have easy read JS code so that other developers can work with / add to the code. | ![screenshot](/documentation/validators/js/script.js.png) |
+| As a new site user, I would like to enter the game with a play button. | ![home user story](/documentation/validators/user-story/home-page-story.png) |
+| As a new site user, I would like to easily play and understand the game. | ![game user story](/documentation/validators/user-story/game-story.png) |
+| As a new site user, I would like to restart the game as I please.| ![restart user story](/documentation/validators/user-story/restart-story.png) |
+| As a new site user, I would like to have help with choosing my correct star sign.| ![help user story](/documentation/validators/user-story/sign-help-story.png) |
+| As a new site user, I would like to send the results to my crush by email.| ![email user story](/documentation/validators/user-story/send-email-story.png) |
+| As a new site user, I would like my crush to view the results.| ![email template user story](/documentation/readme/features/feature-email-template.jpg) |
+| As a returning site user, I would like to learn about "Cupid and Co".| ![lighthouse user story](/documentation/validators/lighthouse/about_mobile.png) |
+| As a returning site user, I would like to learn more about about star sign compatibility.| ![result user story](/documentation/validators/user-story/results-story.png) |
+| As a site administrator, I should have easy read HTML code so that other developers can work with / add to the code. | ![html validator user story](/documentation/validators/htmls/index.html.png) |
+| As a site administrator, I should have easy read CSS code so that other developers can work with / add to the code. | ![css validator user story](/documentation/validators/css/styles.css.png) |
+| As a site administrator, I should have easy read JS code so that other developers can work with / add to the code. | ![js validator user story](/documentation/validators/js/script.js.png) |
 
 ## Unfixed Bugs
 
 - Colour not showing in the sent email. 
-
-- Add to the testing file - heart/letter sticker missing on mobile devices.
+  - this only seems to be happen to Gmail services.
 
 There are no remaining bugs that we are aware of.

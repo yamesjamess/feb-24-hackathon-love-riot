@@ -2,6 +2,7 @@
 
 
 # Love Riot 💘 by Cupid&Co
+## ***"Connecting hearts, one shot at a time!"***
 
 ## Intro
 
@@ -209,6 +210,8 @@ The following details were decided as a Team:
 Brand name: **Cupid&Co**
 
 And app name: **Love Riot**
+
+Cupid&Co's slogan: **Connecting hearts, one shot at a time!**
 
 Logo image:
 

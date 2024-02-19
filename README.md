@@ -163,7 +163,9 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 - Adding a horoscope API for generating detailed compatibility / prediction reports along with the results.
 - Adding a pricing page for user to subscribe to our services such as reiki healing, cosmic realignment etc.
 
-## Wireframes
+## Planning and Development
+
+### Wireframes
 
 Wireframes for the website were created using the UI wireframe tool, [Balsamiq](https://balsamiq.com/), to plan the layout with a mobile-first approach.
 
@@ -176,7 +178,7 @@ The layout and design was kept consistent across the pages / devices as much as 
 **Note** - The square boxes with X inside was used to illustrate a decorative / animated image. And in the early planning stages we had not yet decided between using 'birthdate' or 'star-sign' user input.
 
 
-## Compatibility Scoring
+### Compatibility Scoring
 
 The JS logic used to calculate the percentage compatibility scores were based on the Zodiac Signs Compatibility page by [numerologysign.com] (https://numerologysign.com/zodiac-signs-compatibility/).
 
@@ -192,13 +194,15 @@ The data for zodiac pairs was transcribed into a JS object (compatibilityData) w
 
 To display different visuals associated with positive / negative scores, 'if/else' statements were run in the JS script depending on % brackets.
 
-## Sending Results by Email
+### Sending Results by Email
 
 - EmailJS account was setup and linked to a custom Gmail account loveriot1402@gmail.com
 - An HTML email template was created and uploaded into [EmailJS](https://www.emailjs.com).
 - Images used in the email template are hosted on [AWS](https://aws.amazon.com/) for public accessibility
 
+### Agile Methodology
 
+- Agile development methodology was impletemented through the use of kanban board and timeline via GitHub Projects. The board can be viewd [here](https://github.com/users/yamesjamess/projects/9)
 
 ## Brand Identity
 

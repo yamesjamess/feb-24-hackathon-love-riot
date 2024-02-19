@@ -149,6 +149,12 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
     ![screenshot of zodiac results modal](/documentation/readme/features/feature-zodiac-modal.jpg)
 
+- **About Us Page**
+
+    - Page describing the contributors of the Love Riot app with a scrolling tool for easy access to their details.
+    
+     ![screenshot of about us page](/documentation/readme/features/feature-about-us.jpg)
+
 
 
 ### Future Features

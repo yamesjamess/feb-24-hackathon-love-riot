@@ -67,11 +67,8 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | As a new site user, I would like to have help with choosing my correct star sign.| ![screenshot](/documentation/validators/user-story/sign-help-story.png) |
 | As a new site user, I would like to send the results to my crush by email.| ![screenshot](/documentation/validators/user-story/send-email-story.png) |
 | As a new site user, I would like my crush to view the results.| ![screenshot](/documentation/readme/features/feature-email-template.jpg) |
-
-
 | As a returning site user, I would like to learn about "Cupid and Co".| ![screenshot](/documentation/validators/lighthouse/about_mobile.png) |
 | As a returning site user, I would like to learn more about about star sign compatibility.| ![screenshot](/documentation/validators/user-story/results-story.png) |
-
 | As a site administrator, I should have easy read HTML code so that other developers can work with / add to the code. | ![screenshot](/documentation/validators/htmls/index.html.png) |
 |  As a site administrator, I should have easy read CSS code so that other developers can work with / add to the code. | ![screenshot](/documentation/validators/css/styles.css.png) |
 |  As a site administrator, I should have easy read JS code so that other developers can work with / add to the code. | ![screenshot](/documentation/validators/js/script.js.png) |

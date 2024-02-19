@@ -104,9 +104,12 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
 - **Love Calculator Game Grid**
 
-    -
+    - The Game Grid consists of an text input for 2 people's names, and select options for their 2 star signs. These inputs are required before clicking 'Calculate Love %' will start the calculation process to reveal the score.
 
     ![screenshot of love calculator game grid](/documentation/readme/features/feature-love-riot-calculator-grid.jpg)
+
+    - Info (i) and reset buttons are accessible from within the grid to allow users to find out more information about the star signs / reset the form.
+
     ![screenshot of reset and info buttons](/documentation/readme/features/feature-info-reset-buttons.jpg) 
 
 

@@ -122,7 +122,7 @@ Y / N indicates a Yes / No as to whether each opportunity was acheived and imple
 
 - **Infographic modal (via the 'i' info button)**
 
-    -
+    - To help users who are not sure which star sign to choose for themselves or their crush's, the helpful inforgraphic displays all 12 signs and the dates which align with them. This opens as a modal which can be closed easily by clicking the X button or the website behind.
 
     ![screenshot of zodiac infographic](/documentation/readme/features/feature-infographic.jpg)
 

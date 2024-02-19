@@ -1,22 +1,18 @@
 const compatibilityScoreContainer = document.querySelector(
   ".compatibility-score-container"
 );
-const calculateBtn = document.getElementById("calculate-btn");
 const compatibilityScoreForm = document.querySelector(".user-input");
 const compatibilityPercentage = document.getElementById(
   "compatibility-percentage"
 );
 const resetForm = document.querySelector(".fa-rotate-left");
-const infomodalBtn = document.querySelector(".fa-info");
-const infomodal = document.querySelector(".info-modal-img-container");
-const closemodal = document.getElementById("close-modal");
 const userAndCrushInputs = document.querySelectorAll(".input");
 const heartImg = document.querySelector(".compatibility-section-img");
 const headerH1 = document.querySelector(".header-h1");
 const loadingSpinner = document.querySelector(".loading-spinner");
 const stickerImg = document.getElementById("sticker");
 const resultsLink = document.getElementById("results-link");
-
+const playButton = document.getElementById("playButton");
 const compatibilityData = {
   "Aries-Aries": 50,
   "Aries-Taurus": 38,
@@ -175,12 +171,10 @@ const compatibilityData = {
   "Pisces-Pisces": 60,
 };
 
-// Event listener for form submission
-compatibilityScoreForm.addEventListener("submit", (e) => {
+// function to handle when user submit their form
+const handleSubmit = (e) => {
   e.preventDefault();
-  const userName = document.getElementById("user-name").value;
   const userStarSign = document.getElementById("user-star-sign").value;
-  const crushName = document.getElementById("crush-name").value;
   const crushStarSign = document.getElementById("crush-star-sign").value;
   const key = `${userStarSign}-${crushStarSign}`;
   const score = compatibilityData[key];
@@ -206,7 +200,7 @@ compatibilityScoreForm.addEventListener("submit", (e) => {
         clearInterval(intervalId);
       } else {
         compatibilityPercentage.textContent = initialScore + "%";
-        resultsLink.style.display = 'block';
+        resultsLink.style.display = "block";
       }
     }, 20);
 
@@ -231,16 +225,30 @@ compatibilityScoreForm.addEventListener("submit", (e) => {
     loadingSpinner.style.display = "none";
     loadingSpinner.style.opacity = "0";
   }, 1500);
-});
+};
 
-userAndCrushInputs.forEach((input) => {
-  resetForm.addEventListener("click", () => {
+// function to handle when user click the reset button
+const handleReset = () => {
+  userAndCrushInputs.forEach((input) => {
     input.value = "";
-    compatibilityScoreContainer.style.visibility = "collapse";
-    compatibilityScoreContainer.style.display = "none";
-    compatibilityScoreContainer.style.opacity = "0";
-    heartImg.style.visibility = "visible";
-    heartImg.style.display = "block";
-    resultsLink.style.display = 'none';
   });
-});
+
+  compatibilityScoreContainer.style.visibility = "collapse";
+  compatibilityScoreContainer.style.display = "none";
+  compatibilityScoreContainer.style.opacity = "0";
+  heartImg.style.visibility = "visible";
+  heartImg.style.display = "block";
+  resultsLink.style.display = "none";
+};
+
+// function to handle the play button on index.html
+const handlePlay = () => {
+  window.location.href = "game.html";
+};
+
+if (playButton) {
+  playButton.addEventListener("click", handlePlay);
+} else if (compatibilityScoreForm && resetForm) {
+  compatibilityScoreForm.addEventListener("submit", handleSubmit);
+  resetForm.addEventListener("click", handleReset);
+};
